@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Isosurf">
+      <UniqueIdentifier>{3317988c-e955-4c45-a9d7-c7ff3ebf3cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character">
+      <UniqueIdentifier>{61832d13-cd5d-48d5-b597-4cb807cd7a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSMShadows">
+      <UniqueIdentifier>{7d3177cd-b107-49c3-8663-1f1e3e5e1010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DefferedShading">
+      <UniqueIdentifier>{f1ecf420-e9fe-4e36-b19e-45b6701ee105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EndlessWorld">
+      <UniqueIdentifier>{4ffb0fdd-eba5-42e8-ad8b-e0dd69208fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OceanDemo">
+      <UniqueIdentifier>{6f0c95ae-3ebe-4ec9-8ea2-6947f09ff552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleGS">
+      <UniqueIdentifier>{49566c54-4e68-40a2-8df1-daaafa5a0e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCZTestApp">
+      <UniqueIdentifier>{3e16a4e3-b47a-441c-8946-a5a674eaeda4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderSystem">
+      <UniqueIdentifier>{09d81f9f-10b8-4ffa-8f5b-b84592d02a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderSystemMultiLight">
+      <UniqueIdentifier>{94e48fdf-11f0-4034-8141-e9c0617e3d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderSystemTexturedFog">
+      <UniqueIdentifier>{9149e2d0-5dd1-4266-8ccd-6d10be4d7c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simple">
+      <UniqueIdentifier>{f9fb9462-a6de-4f39-95d4-2a1170a352ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TerrainTessellation">
+      <UniqueIdentifier>{5ebdcd22-134b-4855-ade9-dd9b19599200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VolumeTex">
+      <UniqueIdentifier>{ded9b2e0-fad7-472d-8047-18b6858b11cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Water">
+      <UniqueIdentifier>{f17c892c-f5af-45e8-9191-a2132d71adab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compositor">
+      <UniqueIdentifier>{a68f6d68-3476-429a-95df-a99788f75ca3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\DefaultSamplesPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Isosurf\src\Isosurf.cpp">
+      <Filter>Isosurf</Filter>
+    </ClCompile>
+    <ClCompile Include="Isosurf\src\ProceduralTools.cpp">
+      <Filter>Isosurf</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeTex\src\ThingRenderable.cpp">
+      <Filter>VolumeTex</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeTex\src\VolumeRenderable.cpp">
+      <Filter>VolumeTex</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeTex\src\VolumeTex.cpp">
+      <Filter>VolumeTex</Filter>
+    </ClCompile>
+    <ClCompile Include="Water\src\WaterMesh.cpp">
+      <Filter>Water</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTessellation\src\TerrainTessellationMaterialGenerator.cpp">
+      <Filter>TerrainTessellation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simple\src\Compute.cpp">
+      <Filter>Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="Simple\src\MeshLod.cpp">
+      <Filter>Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="Simple\src\NewInstancing.cpp">
+      <Filter>Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="Simple\src\VolumeCSG.cpp">
+      <Filter>Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="Simple\src\VolumeTerrain.cpp">
+      <Filter>Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="Compositor\src\HelperLogics.cpp">
+      <Filter>Compositor</Filter>
+    </ClCompile>
+    <ClCompile Include="CSMShadows\src\CSMGpuConstants.cpp">
+      <Filter>CSMShadows</Filter>
+    </ClCompile>
+    <ClCompile Include="CSMShadows\src\ShadowCameraSetupStableCSM.cpp">
+      <Filter>CSMShadows</Filter>
+    </ClCompile>
+    <ClCompile Include="OceanDemo\src\MaterialControls.cpp">
+      <Filter>OceanDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\src\AmbientLight.cpp">
+      <Filter>DefferedShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\src\DeferredLightCP.cpp">
+      <Filter>DefferedShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\src\DeferredShading.cpp">
+      <Filter>DefferedShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\src\DLight.cpp">
+      <Filter>DefferedShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\src\GBufferSchemeHandler.cpp">
+      <Filter>DefferedShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\src\GeomUtils.cpp">
+      <Filter>DefferedShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\src\LightMaterialGenerator.cpp">
+      <Filter>DefferedShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\src\MaterialGenerator.cpp">
+      <Filter>DefferedShading</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading\src\SSAOLogic.cpp">
+      <Filter>DefferedShading</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleGS\src\ParticleGS.cpp">
+      <Filter>ParticleGS</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleGS\src\ProceduralManualObject.cpp">
+      <Filter>ParticleGS</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleGS\src\RandomTools.cpp">
+      <Filter>ParticleGS</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSystem\src\OgreShaderExInstancedViewports.cpp">
+      <Filter>ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSystem\src\OgreShaderExTextureAtlasSampler.cpp">
+      <Filter>ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSystem\src\ShaderExReflectionMap.cpp">
+      <Filter>ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSystem\src\ShaderSystem.cpp">
+      <Filter>ShaderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSystemMultiLight\src\RTShaderSRSSegmentedLights.cpp">
+      <Filter>ShaderSystemMultiLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSystemMultiLight\src\SegmentedDynamicLightManager.cpp">
+      <Filter>ShaderSystemMultiLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp">
+      <Filter>ShaderSystemMultiLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSystemTexturedFog\src\RTShaderSRSTexturedFog.cpp">
+      <Filter>ShaderSystemTexturedFog</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp">
+      <Filter>ShaderSystemTexturedFog</Filter>
+    </ClCompile>
+    <ClCompile Include="PCZTestApp\src\RoomObject.cpp">
+      <Filter>PCZTestApp</Filter>
+    </ClCompile>
+    <ClCompile Include="EndlessWorld\src\PerlinNoiseTerrainGenerator.cpp">
+      <Filter>EndlessWorld</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\DefaultSamplesPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

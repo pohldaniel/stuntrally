@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\OgreGL3PlusFBOMultiRenderTarget.h" />
+    <ClInclude Include="include\OgreGL3PlusFBORenderTexture.h" />
+    <ClInclude Include="include\OgreGL3PlusFrameBufferObject.h" />
+    <ClInclude Include="include\OgreGL3PlusHardwareBuffer.h" />
+    <ClInclude Include="include\OgreGL3PlusHardwareBufferManager.h" />
+    <ClInclude Include="include\OgreGL3PlusHardwareOcclusionQuery.h" />
+    <ClInclude Include="include\OgreGL3PlusHardwarePixelBuffer.h" />
+    <ClInclude Include="include\OgreGL3PlusPixelFormat.h" />
+    <ClInclude Include="include\OgreGL3PlusPlugin.h" />
+    <ClInclude Include="include\OgreGL3PlusPrerequisites.h" />
+    <ClInclude Include="include\OgreGL3PlusRenderSystem.h" />
+    <ClInclude Include="include\OgreGL3PlusRenderToVertexBuffer.h" />
+    <ClInclude Include="include\OgreGL3PlusStateCacheManager.h" />
+    <ClInclude Include="include\OgreGL3PlusTexture.h" />
+    <ClInclude Include="include\OgreGL3PlusTextureBuffer.h" />
+    <ClInclude Include="include\OgreGL3PlusTextureManager.h" />
+    <ClInclude Include="include\OgreSPIRVShaderFactory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\gl3w.c" />
+    <ClCompile Include="src\GLSL\src\OgreGLSLExtSupport.cpp" />
+    <ClCompile Include="src\GLSL\src\OgreGLSLMonolithicProgram.cpp" />
+    <ClCompile Include="src\GLSL\src\OgreGLSLProgram.cpp" />
+    <ClCompile Include="src\GLSL\src\OgreGLSLProgramManager.cpp" />
+    <ClCompile Include="src\GLSL\src\OgreGLSLSeparableProgram.cpp" />
+    <ClCompile Include="src\GLSL\src\OgreGLSLShader.cpp" />
+    <ClCompile Include="src\OgreGL3PlusEngineDll.cpp" />
+    <ClCompile Include="src\OgreGL3PlusFBOMultiRenderTarget.cpp" />
+    <ClCompile Include="src\OgreGL3PlusFBORenderTexture.cpp" />
+    <ClCompile Include="src\OgreGL3PlusFrameBufferObject.cpp" />
+    <ClCompile Include="src\OgreGL3PlusHardwareBuffer.cpp" />
+    <ClCompile Include="src\OgreGL3PlusHardwareBufferManager.cpp" />
+    <ClCompile Include="src\OgreGL3PlusHardwareOcclusionQuery.cpp" />
+    <ClCompile Include="src\OgreGL3PlusHardwarePixelBuffer.cpp" />
+    <ClCompile Include="src\OgreGL3PlusPixelFormat.cpp" />
+    <ClCompile Include="src\OgreGL3PlusPlugin.cpp" />
+    <ClCompile Include="src\OgreGL3PlusRenderSystem.cpp" />
+    <ClCompile Include="src\OgreGL3PlusRenderToVertexBuffer.cpp" />
+    <ClCompile Include="src\OgreGL3PlusStateCacheManager.cpp" />
+    <ClCompile Include="src\OgreGL3PlusTexture.cpp" />
+    <ClCompile Include="src\OgreGL3PlusTextureBuffer.cpp" />
+    <ClCompile Include="src\OgreGL3PlusTextureManager.cpp" />
+    <ClCompile Include="src\OgreSPIRVShaderFactory.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EE4923E9-F2D3-4B99-9754-BD809ABBACA1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RenderSystem_GL3Plus</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\libd\x86\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\libd\x64\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\lib\x86\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\lib\x64\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;RenderSystem_GL3Plus_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>include;common;src\GLSL\include;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;..\OgreGLSupport\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\libd\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OgreGLSupport.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;RenderSystem_GL3Plus_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>include;common;src\GLSL\include;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;..\OgreGLSupport\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\libd\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OgreGLSupport.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;RenderSystem_GL3Plus_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>include;common;src\GLSL\include;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;..\OgreGLSupport\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OgreGLSupport.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;RenderSystem_GL3Plus_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>include;common;src\GLSL\include;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;..\OgreGLSupport\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OgreGLSupport.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

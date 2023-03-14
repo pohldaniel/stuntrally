@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\glesw.c" />
+    <ClCompile Include="src\GLSLES\src\OgreGLSLESExtSupport.cpp" />
+    <ClCompile Include="src\GLSLES\src\OgreGLSLESLinkProgram.cpp" />
+    <ClCompile Include="src\GLSLES\src\OgreGLSLESProgram.cpp" />
+    <ClCompile Include="src\GLSLES\src\OgreGLSLESProgramCommon.cpp" />
+    <ClCompile Include="src\GLSLES\src\OgreGLSLESProgramManager.cpp" />
+    <ClCompile Include="src\GLSLES\src\OgreGLSLESProgramPipeline.cpp" />
+    <ClCompile Include="src\OgreGLES2EngineDll.cpp" />
+    <ClCompile Include="src\OgreGLES2FBOMultiRenderTarget.cpp" />
+    <ClCompile Include="src\OgreGLES2FBORenderTexture.cpp" />
+    <ClCompile Include="src\OgreGLES2FrameBufferObject.cpp" />
+    <ClCompile Include="src\OgreGLES2HardwareBuffer.cpp" />
+    <ClCompile Include="src\OgreGLES2HardwareBufferManager.cpp" />
+    <ClCompile Include="src\OgreGLES2HardwareOcclusionQuery.cpp" />
+    <ClCompile Include="src\OgreGLES2HardwarePixelBuffer.cpp" />
+    <ClCompile Include="src\OgreGLES2ManagedResource.cpp" />
+    <ClCompile Include="src\OgreGLES2ManagedResourceManager.cpp" />
+    <ClCompile Include="src\OgreGLES2PixelFormat.cpp" />
+    <ClCompile Include="src\OgreGLES2Plugin.cpp" />
+    <ClCompile Include="src\OgreGLES2RenderSystem.cpp" />
+    <ClCompile Include="src\OgreGLES2RenderToVertexBuffer.cpp" />
+    <ClCompile Include="src\OgreGLES2StateCacheManager.cpp" />
+    <ClCompile Include="src\OgreGLES2Texture.cpp" />
+    <ClCompile Include="src\OgreGLES2TextureManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\OgreGLES2Config.h" />
+    <ClInclude Include="common\OgreGLES2Exports.h" />
+    <ClInclude Include="include\GLES3\gl3.h" />
+    <ClInclude Include="include\GLES3\gl3platform.h" />
+    <ClInclude Include="include\GLES3\glesw.h" />
+    <ClInclude Include="include\KHR\khrplatform.h" />
+    <ClInclude Include="include\OgreGLES2FBOMultiRenderTarget.h" />
+    <ClInclude Include="include\OgreGLES2FBORenderTexture.h" />
+    <ClInclude Include="include\OgreGLES2FrameBufferObject.h" />
+    <ClInclude Include="include\OgreGLES2HardwareBuffer.h" />
+    <ClInclude Include="include\OgreGLES2HardwareBufferManager.h" />
+    <ClInclude Include="include\OgreGLES2HardwareOcclusionQuery.h" />
+    <ClInclude Include="include\OgreGLES2HardwarePixelBuffer.h" />
+    <ClInclude Include="include\OgreGLES2ManagedResource.h" />
+    <ClInclude Include="include\OgreGLES2ManagedResourceManager.h" />
+    <ClInclude Include="include\OgreGLES2PixelFormat.h" />
+    <ClInclude Include="include\OgreGLES2Plugin.h" />
+    <ClInclude Include="include\OgreGLES2Prerequisites.h" />
+    <ClInclude Include="include\OgreGLES2RenderSystem.h" />
+    <ClInclude Include="include\OgreGLES2RenderToVertexBuffer.h" />
+    <ClInclude Include="include\OgreGLES2StateCacheManager.h" />
+    <ClInclude Include="include\OgreGLES2Texture.h" />
+    <ClInclude Include="include\OgreGLES2TextureManager.h" />
+    <ClInclude Include="src\GLSLES\include\OgreGLSLESCgProgram.h" />
+    <ClInclude Include="src\GLSLES\include\OgreGLSLESCgProgramFactory.h" />
+    <ClInclude Include="src\GLSLES\include\OgreGLSLESExtSupport.h" />
+    <ClInclude Include="src\GLSLES\include\OgreGLSLESLinkProgram.h" />
+    <ClInclude Include="src\GLSLES\include\OgreGLSLESProgram.h" />
+    <ClInclude Include="src\GLSLES\include\OgreGLSLESProgramCommon.h" />
+    <ClInclude Include="src\GLSLES\include\OgreGLSLESProgramManager.h" />
+    <ClInclude Include="src\GLSLES\include\OgreGLSLESProgramPipeline.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{488531B6-8217-4B4E-AC63-77BB75656ABB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RenderSystem_GLES2</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\libd\x86\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\libd\x64\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\lib\x86\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\lib\x64\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;RenderSystem_GLES2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>include;common;src\GLSLES\include;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;..\OgreGLSupport\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\libd\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OgreGLSupport.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;RenderSystem_GLES2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>include;common;src\GLSLES\include;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;..\OgreGLSupport\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\libd\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OgreGLSupport.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;RenderSystem_GLES2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>include;common;src\GLSLES\include;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;..\OgreGLSupport\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OgreGLSupport.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;RenderSystem_GLES2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>include;common;src\GLSLES\include;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;..\OgreGLSupport\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OgreGLSupport.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

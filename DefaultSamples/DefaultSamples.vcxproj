@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Compositor\src\HelperLogics.cpp" />
+    <ClCompile Include="CSMShadows\src\CSMGpuConstants.cpp" />
+    <ClCompile Include="CSMShadows\src\ShadowCameraSetupStableCSM.cpp" />
+    <ClCompile Include="DeferredShading\src\AmbientLight.cpp" />
+    <ClCompile Include="DeferredShading\src\DeferredLightCP.cpp" />
+    <ClCompile Include="DeferredShading\src\DeferredShading.cpp" />
+    <ClCompile Include="DeferredShading\src\DLight.cpp" />
+    <ClCompile Include="DeferredShading\src\GBufferSchemeHandler.cpp" />
+    <ClCompile Include="DeferredShading\src\GeomUtils.cpp" />
+    <ClCompile Include="DeferredShading\src\LightMaterialGenerator.cpp" />
+    <ClCompile Include="DeferredShading\src\MaterialGenerator.cpp" />
+    <ClCompile Include="DeferredShading\src\SSAOLogic.cpp" />
+    <ClCompile Include="EndlessWorld\src\PerlinNoiseTerrainGenerator.cpp" />
+    <ClCompile Include="Isosurf\src\Isosurf.cpp" />
+    <ClCompile Include="Isosurf\src\ProceduralTools.cpp" />
+    <ClCompile Include="OceanDemo\src\MaterialControls.cpp" />
+    <ClCompile Include="ParticleGS\src\ParticleGS.cpp" />
+    <ClCompile Include="ParticleGS\src\ProceduralManualObject.cpp" />
+    <ClCompile Include="ParticleGS\src\RandomTools.cpp" />
+    <ClCompile Include="PCZTestApp\src\RoomObject.cpp" />
+    <ClCompile Include="ShaderSystemMultiLight\src\RTShaderSRSSegmentedLights.cpp" />
+    <ClCompile Include="ShaderSystemMultiLight\src\SegmentedDynamicLightManager.cpp" />
+    <ClCompile Include="ShaderSystemMultiLight\src\ShaderSystemMultiLight.cpp" />
+    <ClCompile Include="ShaderSystemTexturedFog\src\RTShaderSRSTexturedFog.cpp" />
+    <ClCompile Include="ShaderSystemTexturedFog\src\ShaderSystemTexturedFog.cpp" />
+    <ClCompile Include="ShaderSystem\src\OgreShaderExInstancedViewports.cpp" />
+    <ClCompile Include="ShaderSystem\src\OgreShaderExTextureAtlasSampler.cpp" />
+    <ClCompile Include="ShaderSystem\src\ShaderExReflectionMap.cpp" />
+    <ClCompile Include="ShaderSystem\src\ShaderSystem.cpp" />
+    <ClCompile Include="Simple\src\Compute.cpp" />
+    <ClCompile Include="Simple\src\MeshLod.cpp" />
+    <ClCompile Include="Simple\src\NewInstancing.cpp" />
+    <ClCompile Include="Simple\src\VolumeCSG.cpp" />
+    <ClCompile Include="Simple\src\VolumeTerrain.cpp" />
+    <ClCompile Include="src\DefaultSamplesPlugin.cpp" />
+    <ClCompile Include="TerrainTessellation\src\TerrainTessellationMaterialGenerator.cpp" />
+    <ClCompile Include="VolumeTex\src\ThingRenderable.cpp" />
+    <ClCompile Include="VolumeTex\src\VolumeRenderable.cpp" />
+    <ClCompile Include="VolumeTex\src\VolumeTex.cpp" />
+    <ClCompile Include="Water\src\WaterMesh.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\DefaultSamplesPlugin.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A0DDD626-CAC6-4B5F-B588-2976FF1CDDC5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DefaultSamples</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\libd\x86\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\libd\x64\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\lib\x86\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\lib\x64\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;HAVE_PCZ_PLUGIN;HAVE_IMGUI;DefaultSamples_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreRTShaderSystem\include;..\OgreRTShaderSystem\common;..\OgreBites\include;..\OgreBites\common;..\OgreBullet\include;..\OgreBullet\common;..\OgreMeshLodGenerator\include;..\OgreMeshLodGenerator\common;..\OgreVolume\include;..\OgreVolume\common;..\OgreTerrain\include;..\OgreTerrain\common;..\OgrePaging\include;..\Plugin_PCZSceneManager\include;..\Plugin_PCZSceneManager\common;..\libbullet;..\libimgui;Character\include;Compositor\include;CSMShadows\include;DeferredShading\include;EndlessWorld\include;Isosurf\include;OceanDemo\include;ParticleGS\include;PCZTestApp\include;ShaderSystem\include;ShaderSystemMultiLight\include;ShaderSystemTexturedFog\include;Simple\include;TerrainTessellation\include;VolumeTex\include;Water\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\libd\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OgreRTShaderSystem.lib;OgreBites.lib;OgreOverlay.lib;OgreBullet.lib;OgreVolume.lib;OgreTerrain.lib;OgrePaging.lib;OgreMeshLodGenerator.lib;Plugin_PCZSceneManager.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;HAVE_PCZ_PLUGIN;HAVE_IMGUI;DefaultSamples_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreRTShaderSystem\include;..\OgreRTShaderSystem\common;..\OgreBites\include;..\OgreBites\common;..\OgreBullet\include;..\OgreBullet\common;..\OgreMeshLodGenerator\include;..\OgreMeshLodGenerator\common;..\OgreVolume\include;..\OgreVolume\common;..\OgreTerrain\include;..\OgreTerrain\common;..\OgrePaging\include;..\Plugin_PCZSceneManager\include;..\Plugin_PCZSceneManager\common;..\libbullet;..\libimgui;Character\include;Compositor\include;CSMShadows\include;DeferredShading\include;EndlessWorld\include;Isosurf\include;OceanDemo\include;ParticleGS\include;PCZTestApp\include;ShaderSystem\include;ShaderSystemMultiLight\include;ShaderSystemTexturedFog\include;Simple\include;TerrainTessellation\include;VolumeTex\include;Water\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\libd\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OgreRTShaderSystem.lib;OgreBites.lib;OgreOverlay.lib;OgreBullet.lib;OgreVolume.lib;OgreTerrain.lib;OgrePaging.lib;OgreMeshLodGenerator.lib;Plugin_PCZSceneManager.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;HAVE_PCZ_PLUGIN;HAVE_IMGUI;DefaultSamples_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreRTShaderSystem\include;..\OgreRTShaderSystem\common;..\OgreBites\include;..\OgreBites\common;..\OgreBullet\include;..\OgreBullet\common;..\OgreMeshLodGenerator\include;..\OgreMeshLodGenerator\common;..\OgreVolume\include;..\OgreVolume\common;..\OgreTerrain\include;..\OgreTerrain\common;..\OgrePaging\include;..\Plugin_PCZSceneManager\include;..\Plugin_PCZSceneManager\common;..\libbullet;..\libimgui;Character\include;Compositor\include;CSMShadows\include;DeferredShading\include;EndlessWorld\include;Isosurf\include;OceanDemo\include;ParticleGS\include;PCZTestApp\include;ShaderSystem\include;ShaderSystemMultiLight\include;ShaderSystemTexturedFog\include;Simple\include;TerrainTessellation\include;VolumeTex\include;Water\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OgreRTShaderSystem.lib;OgreBites.lib;OgreOverlay.lib;OgreBullet.lib;OgreVolume.lib;OgreTerrain.lib;OgrePaging.lib;OgreMeshLodGenerator.lib;Plugin_PCZSceneManager.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;HAVE_PCZ_PLUGIN;HAVE_IMGUI;DefaultSamples_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreRTShaderSystem\include;..\OgreRTShaderSystem\common;..\OgreBites\include;..\OgreBites\common;..\OgreBullet\include;..\OgreBullet\common;..\OgreMeshLodGenerator\include;..\OgreMeshLodGenerator\common;..\OgreVolume\include;..\OgreVolume\common;..\OgreTerrain\include;..\OgreTerrain\common;..\OgrePaging\include;..\Plugin_PCZSceneManager\include;..\Plugin_PCZSceneManager\common;..\libbullet;..\libimgui;Character\include;Compositor\include;CSMShadows\include;DeferredShading\include;EndlessWorld\include;Isosurf\include;OceanDemo\include;ParticleGS\include;PCZTestApp\include;ShaderSystem\include;ShaderSystemMultiLight\include;ShaderSystemTexturedFog\include;Simple\include;TerrainTessellation\include;VolumeTex\include;Water\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OgreRTShaderSystem.lib;OgreBites.lib;OgreOverlay.lib;OgreBullet.lib;OgreVolume.lib;OgreTerrain.lib;OgrePaging.lib;OgreMeshLodGenerator.lib;Plugin_PCZSceneManager.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

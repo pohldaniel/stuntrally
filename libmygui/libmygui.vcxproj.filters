@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{b43e8dc9-d504-43b2-ba6a-8c4e0a22b32e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Common">
+      <UniqueIdentifier>{95a7daad-4afe-426f-a885-dd9fa6628a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Controller">
+      <UniqueIdentifier>{cb8926ac-3662-4803-b1d7-723f4c9f1d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Layeritem">
+      <UniqueIdentifier>{4732fea5-3daa-4cac-a5b4-525e0c01a412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Manager">
+      <UniqueIdentifier>{a2126ed7-6126-4bb6-a14b-810229df8488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Resource">
+      <UniqueIdentifier>{b5965946-6a1a-442f-ad28-2981f5e30bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Resource\Data">
+      <UniqueIdentifier>{e1b05df9-afcb-44fe-a60f-35c1dbde0c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\SubWidget">
+      <UniqueIdentifier>{78eb76fb-0c54-4e14-88c3-06ed709b9ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Types">
+      <UniqueIdentifier>{bf1f5b72-0335-45ab-a201-8047c4139c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Common\Base">
+      <UniqueIdentifier>{22b5eaa7-94f5-47ba-bab3-18a487dda424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{e0365395-6c23-4480-81fa-cbede5716098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility\Logging">
+      <UniqueIdentifier>{daee2374-94ce-4ca3-afd7-7578135fa0ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widget">
+      <UniqueIdentifier>{d29514dd-d33b-458f-8a83-fc8d54150164}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\MyGUI_BiIndexBase.cpp">
+      <Filter>Source Files\Core\Common\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ScrollViewBase.cpp">
+      <Filter>Source Files\Core\Common\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_WidgetInput.cpp">
+      <Filter>Source Files\Core\Common\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_WidgetUserData.cpp">
+      <Filter>Source Files\Core\Common\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_BackwardCompatibility.cpp">
+      <Filter>Source Files\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_Exception.cpp">
+      <Filter>Source Files\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_Precompiled.cpp">
+      <Filter>Source Files\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ActionController.cpp">
+      <Filter>Source Files\Core\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ControllerEdgeHide.cpp">
+      <Filter>Source Files\Core\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ControllerFadeAlpha.cpp">
+      <Filter>Source Files\Core\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ControllerPosition.cpp">
+      <Filter>Source Files\Core\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ControllerRepeatClick.cpp">
+      <Filter>Source Files\Core\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_LayerItem.cpp">
+      <Filter>Source Files\Core\Layeritem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_LayerNode.cpp">
+      <Filter>Source Files\Core\Layeritem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_OverlappedLayer.cpp">
+      <Filter>Source Files\Core\Layeritem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_RenderItem.cpp">
+      <Filter>Source Files\Core\Layeritem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_SharedLayer.cpp">
+      <Filter>Source Files\Core\Layeritem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_SharedLayerNode.cpp">
+      <Filter>Source Files\Core\Layeritem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_SkinItem.cpp">
+      <Filter>Source Files\Core\Layeritem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ClipboardManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ControllerManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_DataManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_DynLibManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_FactoryManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_FontManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_Gui.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_InputManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_LanguageManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_LayerManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_LayoutManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_PluginManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_PointerManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_RenderManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ResourceManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_SkinManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_SubWidgetManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ToolTipManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_WidgetManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_WindowsClipboardHandler.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ChildSkinInfo.cpp">
+      <Filter>Source Files\Core\Resource\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_MaskPickInfo.cpp">
+      <Filter>Source Files\Core\Resource\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_SubWidgetBinding.cpp">
+      <Filter>Source Files\Core\Resource\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ResourceImageSet.cpp">
+      <Filter>Source Files\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ResourceImageSetPointer.cpp">
+      <Filter>Source Files\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ResourceLayout.cpp">
+      <Filter>Source Files\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ResourceManualFont.cpp">
+      <Filter>Source Files\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ResourceManualPointer.cpp">
+      <Filter>Source Files\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ResourceSkin.cpp">
+      <Filter>Source Files\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ResourceTrueTypeFont.cpp">
+      <Filter>Source Files\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_Any.cpp">
+      <Filter>Source Files\Core\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_Colour.cpp">
+      <Filter>Source Files\Core\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_EditText.cpp">
+      <Filter>Source Files\Core\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_MainSkin.cpp">
+      <Filter>Source Files\Core\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_PolygonalSkin.cpp">
+      <Filter>Source Files\Core\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_RotatingSkin.cpp">
+      <Filter>Source Files\Core\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_SimpleText.cpp">
+      <Filter>Source Files\Core\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_SubSkin.cpp">
+      <Filter>Source Files\Core\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_TileRect.cpp">
+      <Filter>Source Files\Core\SubWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ConsoleLogListener.cpp">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_FileLogListener.cpp">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_LevelLogFilter.cpp">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_LogManager.cpp">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_LogSource.cpp">
+      <Filter>Source Files\Utility\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_Constants.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_DataFileStream.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_DataMemoryStream.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_DataStream.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_DynLib.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_GeometryUtility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_TextIterator.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_TextureUtility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_TextView.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_UString.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_XmlDocument.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_Button.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_Canvas.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ComboBox.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_DDContainer.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_EditBox.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ImageBox.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ItemBox.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ListBox.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_MenuBar.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_MenuControl.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_MenuItem.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_MultiListBox.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_MultiListItem.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_PopupMenu.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ProgressBar.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ScrollBar.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_ScrollView.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_TabControl.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_TabItem.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_TextBox.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_Widget.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyGUI_Window.cpp">
+      <Filter>Source Files\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="PrecompiledHeaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
