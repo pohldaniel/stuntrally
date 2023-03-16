@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{5315e788-9191-449f-8fd4-e4b98a12f031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor">
+      <UniqueIdentifier>{0be8ed26-541f-4da9-9df5-db0f8e009ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ogre">
+      <UniqueIdentifier>{113e6802-2c90-4af2-b3d6-c82ae2a4517f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="road">
+      <UniqueIdentifier>{c2cd8409-6e6b-49ae-b523-b557ea6a7a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vdrift">
+      <UniqueIdentifier>{2b5a4a31-5f92-4413-8356-0f9a84083832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vdrift_car">
+      <UniqueIdentifier>{244976ac-3d8b-4dde-8cf1-763265c7d436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{89e50457-58b9-4a76-b0ba-ba16117f24a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vdrift\rest">
+      <UniqueIdentifier>{b521b600-d581-4d67-b04e-6e3f2dfc861c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\ogre\common\MessageBox\Attribute.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\MessageBox\BaseLayout.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\MessageBox\MessageBox.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\MessageBox\MessageBoxStyle.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\MessageBox\WrapsAttribute.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\Axes.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\CScene.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\Def_Str.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\GraphView.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\Gui_Def.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\Gui_Popup.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\GuiCom.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\Instancing.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\MultiList2.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\MyGUI_LastHeader.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\PointerFix.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\PreviewTex.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\RenderBox.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\RenderBoxScene.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\RenderConst.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\settings_com.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\ShapeData.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\Slider.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\SliderValue.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\TerrainMaterial.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\WaterRTT.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\BltObjects.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\CData.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\FluidsXml.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\PresetsXml.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\SceneClasses.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\SceneXml.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\SColor.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\TracksXml.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\editor\BaseApp.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\editor\CApp.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\editor\CGui.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\editor\enums.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\editor\pch.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\editor\settings.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\ReplayTrk.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\road\PaceNotes.h">
+      <Filter>road</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\road\Road.h">
+      <Filter>road</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\road\SplineBase.h">
+      <Filter>road</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\par.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\pathmanager.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\cartire.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\configfile.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\ogre\common\MessageBox\MessageBox.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\MessageBox\MessageBoxStyle.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Axes.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\CScene.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\GraphView.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Gui_Popup.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\GuiCom_Options.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\GuiCom_Screen.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\GuiCom_Set.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\GuiCom_Track.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\GuiCom_TrackUpd.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\GuiCom_Util.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Instancing.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\MultiList2.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\PointerFix.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\PreviewTex.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\RenderBoxScene.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\SceneEmitters.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\SceneFluids.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\SceneObjects.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\SceneTrees.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\settings_com.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Shadows.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\simplexnoise.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Sky.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Slider.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\SliderValue.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Terrain.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\TerrainBlend.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\TerrainMaterial.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Tools.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\WaterRTT.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\BltObjects.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\CData.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\FluidsXml.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\PresetsXml.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\SceneClasses.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\SceneXml.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\SceneXml_Load.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\SceneXml_Save.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\SColor.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\TracksXml.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\BaseApp.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\BaseApp_Create.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\CApp.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\CGui.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Gui_Events.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Gui_EventsTer.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Gui_Init.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Gui_Tools.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Gui_Tweak.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Gui_Util.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\main.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Render2tex.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\SceneInit.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\settings.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\StartPos.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\TerrainBrushes.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\TerrainEdit.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Update_EditKeyTxt.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Update_EditMouse.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Update_Frame.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Update_Frame2.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Update_Key.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Update_KeyObjects.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Update_KeyRoad.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\UtilitySystem.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\editor\Warnings.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\ReplayTrk.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\PaceNotes.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\PaceNotesGen.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\Road_Edit.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\Road_File.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\Road_Markers.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\Road_Mesh.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\Road_Prepass.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\Road_Rebuild.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\SplineBase.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\par.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\pathmanager.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\cartire.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\configfile.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="PrecompiledHeaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

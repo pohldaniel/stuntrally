@@ -187,7 +187,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;OGRE_GLPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;OGRE_GLPLUGIN_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
       <AdditionalIncludeDirectories>include;common;src\GLSL\include;src\atifs\include;src\nvparse;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -204,7 +204,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;OGRE_GLPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;OGRE_GLPLUGIN_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
       <AdditionalIncludeDirectories>include;common;src\GLSL\include;src\atifs\include;src\nvparse;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -223,7 +223,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;OGRE_GLPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;OGRE_GLPLUGIN_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
       <AdditionalIncludeDirectories>include;common;src\GLSL\include;src\atifs\include;src\nvparse;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -244,7 +244,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;OGRE_GLPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;OGRE_GLPLUGIN_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
       <AdditionalIncludeDirectories>include;common;src\GLSL\include;src\atifs\include;src\nvparse;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

@@ -1,0 +1,827 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{ba83b10c-bf16-4b03-b430-50b06dd4c3dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor">
+      <UniqueIdentifier>{a376194a-c538-4944-9a83-bc64be51cf1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mat">
+      <UniqueIdentifier>{0e047603-aeab-499e-b8ad-9c9826607e1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{03aaae09-02be-4b35-a2b9-1681743944e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ogre">
+      <UniqueIdentifier>{ffde3472-ba33-45db-b833-50a38762d396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="road">
+      <UniqueIdentifier>{ce7bbd17-ce49-44b1-8ed2-7433317c35c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{3cfde195-1bc2-4d50-af90-18eb1129753b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vdrift">
+      <UniqueIdentifier>{d122158c-8fe9-444f-bc8a-c647dcca00c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vdrift_car">
+      <UniqueIdentifier>{1b9f4773-e5c0-4f2e-8375-e32ff2afc79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{4e95b23f-81d3-452e-b774-6276aedcd760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vdrift\rest">
+      <UniqueIdentifier>{a32d3c11-e9e8-44fe-8ff1-125652157091}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PrecompiledHeaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\MessageBox\MessageBox.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\MessageBox\MessageBoxStyle.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\BltObjects.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\CData.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\FluidsXml.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\PresetsXml.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\SceneClasses.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\SceneXml.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\SceneXml_Load.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\SceneXml_Save.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\SColor.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\data\TracksXml.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Axes.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\CScene.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\GraphView.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Gui_Popup.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\GuiCom_Options.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\GuiCom_Screen.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\GuiCom_Set.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\GuiCom_Track.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\GuiCom_TrackUpd.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\GuiCom_Util.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Instancing.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\MultiList2.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\PointerFix.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\PreviewTex.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\RenderBoxScene.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\SceneEmitters.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\SceneFluids.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\SceneObjects.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\SceneTrees.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\settings_com.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Shadows.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\simplexnoise.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Sky.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Slider.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\SliderValue.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Terrain.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\TerrainBlend.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\TerrainMaterial.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\Tools.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\common\WaterRTT.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\network\gameclient.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\network\masterclient.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\BaseApp.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\BaseApp_Create.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\BaseApp_Effects.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\CarModel_Create.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\CarModel_Update.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\CarPosInfo.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\CarReflection.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\CGame.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\CGui.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Challenges.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\ChallengesXml.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\ChampChall.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Championships.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\ChampsXml.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\CHud.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\CInput.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Compositor.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\FollowCamera.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Gui_Events.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Gui_Init.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Gui_Input.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Gui_KeyPress.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Gui_Network.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Gui_Replay.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Gui_Tweak.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Gui_Util.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Hud_Create.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Hud_Graphs.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Hud_Size.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Hud_Update.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Hud_UpdatesAll.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Hud_UpdDebug.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\LoadingBar.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\main.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Replay.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\ReplayTrk.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Rewind.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\SceneInit.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\settings.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\SplitScreen.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Update.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Update_PerfTest.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\ogre\Update_Poses.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\PaceNotes.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\PaceNotesGen.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\Road_Edit.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\Road_File.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\Road_Markers.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\Road_Mesh.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\Road_Prepass.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\Road_Rebuild.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\road\SplineBase.cpp">
+      <Filter>road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\sound\SoundBase.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\sound\SoundBaseMgr.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\sound\SoundBaseMgrUtil.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\sound\SoundMgr.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\aabb.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\Buoyancy.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\collision_world.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\crashdetection.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\endian_utility.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\forcefeedback.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\game.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\linearframe.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\linearinterp.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\mathplane.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\mathvector.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\optional.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\par.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\pathmanager.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\quaternion.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\reseatable_reference.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\rigidbody.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\rotationalframe.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\suspensionbump.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\timer.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\toggle.cpp">
+      <Filter>vdrift\rest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\car.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\car_sound.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\caraero.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\carbrake.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\carclutch.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\carcontrolmap_local.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\cardifferential.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\cardynamics.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\cardynamics_load.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\cardynamics_simulate.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\cardynamics_update.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\carengine.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\carsuspension.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\cartire.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\cartransmission.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\carwheel.cpp">
+      <Filter>vdrift_car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\vdrift\configfile.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\ogre\common\MessageBox\Attribute.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\MessageBox\BaseLayout.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\MessageBox\MessageBox.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\MessageBox\MessageBoxStyle.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\MessageBox\WrapsAttribute.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\BltObjects.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\CData.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\FluidsXml.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\PresetsXml.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\SceneClasses.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\SceneXml.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\SColor.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\data\TracksXml.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\Axes.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\CScene.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\Def_Str.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\GraphView.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\Gui_Def.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\Gui_Popup.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\GuiCom.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\Instancing.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\MultiList2.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\MyGUI_LastHeader.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\PointerFix.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\PreviewTex.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\RenderBox.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\RenderBoxScene.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\RenderConst.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\settings_com.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\ShapeData.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\Slider.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\SliderValue.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\TerrainMaterial.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\common\WaterRTT.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\network\address.hpp">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\network\enet-wrapper.hpp">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\network\gameclient.hpp">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\network\masterclient.hpp">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\network\networkcallbacks.hpp">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\network\peerinfo.hpp">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\network\protocol.hpp">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\network\types.hpp">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\network\xtime.hpp">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\BaseApp.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\CarModel.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\CarPosInfo.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\CarReflection.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\CGame.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\CGui.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\ChallengesXml.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\ChampsXml.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\CHud.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\CInput.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\Compositor.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\FollowCamera.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\LoadingBar.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\Localization.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\pch.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\Replay.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\ReplayTrk.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\settings.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ogre\SplitScreen.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\road\PaceNotes.h">
+      <Filter>road</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\road\Road.h">
+      <Filter>road</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\road\SplineBase.h">
+      <Filter>road</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\sound\SoundBase.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\sound\SoundBaseMgr.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\sound\SoundMgr.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\sound\SoundReverbSets.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\aabb.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\bucketed_hashmap.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\Buoyancy.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\BuoyMath.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\collision_contact.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\collision_world.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\crashdetection.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\dbl.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\endian_utility.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\forcefeedback.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\game.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\isnan.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\linearframe.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\linearinterp.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\macros.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\mathplane.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\mathvector.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\matrix3.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\matrix4.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\numprocessors.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\optional.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\pairsort.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\par.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\pathmanager.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\quaternion.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\quickprof.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\reseatable_reference.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\rigidbody.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\rotationalframe.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\spline.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\suspensionbump.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\timer.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\tobullet.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\toggle.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\tracksurface.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\unittest.h">
+      <Filter>vdrift\rest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\car.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\caraero.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\carbrake.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\carclutch.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\carcontrolmap_local.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\cardefs.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\cardifferential.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\cardynamics.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\carengine.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\carfueltank.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\carsuspension.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\cartire.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\cartransmission.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\carwheel.h">
+      <Filter>vdrift_car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\vdrift\configfile.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

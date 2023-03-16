@@ -1,0 +1,8 @@
+
+font Console
+{
+	type 		truetype
+	source 		VeraMono.ttf
+	size 		21
+	resolution 	72
+}

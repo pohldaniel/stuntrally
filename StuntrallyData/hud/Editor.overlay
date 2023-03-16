@@ -1,0 +1,30 @@
+
+overlay Editor/BrushPrvOverlay
+{
+	zorder 500
+	overlay_element Editor/BrushPrvPanel Panel
+	{
+		metrics_mode pixels
+		vert_align bottom
+		left  0
+		top	 -190
+		width   128
+		height	128
+		//material BrushPrvMtr
+	}
+}
+
+overlay Editor/TerPrvOverlay
+{
+	zorder 500
+	overlay_element Editor/TerPrvPanel Panel
+	{
+		metrics_mode pixels
+		vert_align bottom
+		left  0
+		top	 -283
+		width   256
+		height	256
+		//material TerPrvMtr
+	}
+}

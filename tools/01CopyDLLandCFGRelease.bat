@@ -1,5 +1,6 @@
 copy ..\lib\x64\Codec_Assimp.dll ..\x64\Release
 copy ..\lib\x64\Codec_STBI.dll ..\x64\Release
+copy ..\lib\x64\Codec_FreeImage.dll ..\x64\Release
 copy ..\lib\x64\DefaultSamples.dll ..\x64\Release
 copy ..\lib\x64\OgreBites.dll ..\x64\Release
 copy ..\lib\x64\OgreBullet.dll ..\x64\Release

@@ -1,0 +1,952 @@
+material car_base
+{
+	parent base
+	terrain_light_map true
+	terrain_light_map_toggleable true
+	// no motion blur
+	motionblur_mask false
+}
+
+material car_body
+{
+	parent car_base
+	diffuseMap body00_add.png
+	carPaintMap body00_red.png
+	reflMap refl.png
+	env_map true
+
+	fresnel true
+	fresnelScaleBiasPower 1.31 0.10 4
+	specular 1.02 1.02 1.0  20 //x4
+	glossiness 0.5
+	reflectiveness 1.0
+	fresnelScaleBiasPower2 1.00 0.10 4
+	specular2 0.7 0.65 0.6  1 //x4
+}
+
+material car_glass
+{
+	parent car_base
+	diffuseMap glass.png
+	depth_write off
+	scene_blend alpha_blend
+	ambient 1.9 1.9 1.9
+	diffuse 1.9 1.9 1.9
+	specular 1.2 1.2 1.2  96 //x4
+
+	env_map true
+	fresnel true
+	specular_alpha true
+	//cull_hardware none
+	twoside_diffuse true
+
+	//fresnelScaleBiasPower 0.8 0.3 4
+	fresnelScaleBiasPower 0.3 0.5 1.5
+	//  env clr mul,  al clr mul,  al clr pow,  al ifluence mul fin
+	//env_alpha 1.5  1.1 1.5  0.8
+	env_alpha 1.1  1.2 0.9  1.2
+}
+material car_glass2  // 1 mesh, 2 sided
+{
+	parent car_glass
+	diffuseMap glass.png
+	cull_hardware none
+	depth_write on
+}
+
+material car_ghost
+{
+	parent base
+	diffuseMap white.png
+}
+material car_interior
+{
+	parent car_base
+	diffuseMap interior.png
+}
+material car_wheel
+{
+	parent car_base
+	diffuseMap wheel.png
+}
+
+//  test reflection
+material SphereTest
+{
+	parent car_base
+	diffuseMap white.png
+	//reflMap refl.png
+	env_map true
+	fresnel false
+	refl_amount 1.0
+	//fresnel true
+	//fresnelScaleBiasPower 0.81 0.67 4
+  	ambient 0.3 0.3 0.3
+  	diffuse 0.3 0.3 0.3
+	specular 1 1 1  8 //x4
+}
+
+//  cars  ---------------------------------------------
+
+
+//  HI  -------------------------------------------------
+material HI_glass
+{
+	parent car_glass
+	diffuseMap HI_glass.png
+	//? normalMap HI_desert_mntn_n.jpg
+	//ambient 1.0 1.0 1.0
+	//diffuse 1.0 1.0 1.0
+	env_alpha 1.0  1.0 1.0  1.0
+}
+material HI_interior
+{
+	parent car_interior
+	diffuseMap HI_interior.png
+}
+material HI_wheel
+{
+	parent car_wheel
+	diffuseMap HI_wheel.png
+	reflMap HI_wheel_refl.png
+	specMap HI_wheel_refl.png
+	specular 1.0 1.0 1.0 24
+	env_map true
+	refl_amount 0.1
+}
+
+
+//  ES  -------------------------------------------------
+material car_body_ES
+{
+	parent car_body
+	normalMap ES_normal.png
+	specMap ES_spec.png
+}
+material ES_glass
+{
+	parent car_glass
+	diffuseMap ES_glass.png
+}
+material ES_interior
+{
+	parent car_interior
+	diffuseMap ES_interior.png
+	normalMap ES_interior_normal.jpg
+}
+
+material ES_wheel
+{
+	parent car_wheel
+	diffuseMap ES_wheel.png
+	normalMap ES_wheel_normal.jpg
+	specMap ES_wheel_spec.png
+	reflMap ES_wheel_spec.png
+	specular 1 1 1 24
+}
+material ES_brake
+{
+	parent ES_wheel	
+}
+
+
+//  S8  -------------------------------
+material S8_glass
+{
+	parent car_glass
+	diffuseMap S8_glass.png
+}
+material S8_rear_lights
+{
+	parent car_base
+	diffuseMap S8_rear_lights.png
+	ambient 1.0 0.2 0.2
+	diffuse 1.0 0.2 0.2
+	specular 0.3 0.1 0.1 24
+}
+material S8_interior
+{
+	parent car_interior
+	diffuseMap S8_interior.png
+	ambient 0.5 0.5 0.5
+	diffuse 0.5 0.5 0.5
+	specular 0.2 0.2 0.2 4
+}
+
+material S8_wheel
+{
+	parent car_base
+	diffuseMap S8_wheel.png
+	normalMap S8_wheel_norm.png
+	specMap S8_wheel_spec.png
+	reflMap S8_wheel_refl.png
+	ambient 0.7 0.7 0.7
+	diffuse 0.8 0.8 0.8
+	specular 0.7 0.7 0.4 32
+	env_map true
+	refl_amount 0.1
+}
+material S8_brake
+{
+	parent car_base
+	diffuseMap S8_brake.jpg
+	ambient 0.7 0.7 0.7
+	diffuse 0.7 0.7 0.7
+	specular 0.8 0.8 0.8 20
+}
+
+//  XZ  -------------------------------
+material XZ_glass
+{
+	parent car_glass
+	diffuseMap XZ_glass.png
+}
+material XZ_interior
+{
+	parent car_base
+	diffuseMap XZ_interior.png
+	specMap XZ_interior_refl.png
+	reflMap XZ_interior_refl.png
+	ambient 0.7 0.7 0.7
+	diffuse 0.5 0.5 0.5
+	specular 0.9 0.9 0.9 16
+}
+material XZ_wheel
+{
+	parent car_base
+	diffuseMap XZ_Tire.png
+	normalMap XZ_Tire_norm.png
+	specMap XZ_Tire_spec.png
+	reflMap XZ_Tire_refl.png
+	ambient 0.4 0.4 0.4
+	diffuse 0.4 0.4 0.4
+	specular 1 1 1 4
+	env_map true
+	fresnel true
+	fresnelScaleBiasPower 0.6 0.15 4
+}
+material XZ_brake
+{
+	parent car_base
+	diffuseMap XZ_Tire.png
+	normalMap XZ_Tire_norm.png
+	ambient 0.5 0.5 0.5
+	diffuse 0.5 0.5 0.5
+	specular 0.6 0.6 0.6 4
+}
+
+//  LK4
+material LK4_glass
+{
+	parent car_glass2
+	diffuseMap LK4_glass.png
+}
+material LK4_interior
+{
+	parent car_base
+	diffuseMap LK4_interior.png
+	specMap LK4_interior_spec.png
+	reflMap LK4_interior_refl.png
+	ambient 0.7 0.7 0.7
+	diffuse 0.7 0.7 0.7
+	specular 1 1 1 8
+	env_map true
+	fresnel true
+	fresnelScaleBiasPower 0.7 0.15 4
+}
+material LK4_wheel
+{
+	parent car_base
+	diffuseMap LK4_wheel.png
+	specMap LK4_wheel_refl.png
+	reflMap LK4_wheel_refl.png
+	ambient 0.5 0.5 0.5
+	diffuse 0.7 0.7 0.7
+	specular 1 1 1 8
+	env_map true
+	fresnel true
+	fresnelScaleBiasPower 0.7 0.15 4
+}
+
+//  HR
+material HR_glass
+{
+	parent car_glass2
+	diffuseMap HR_glass.png
+}
+material HR_interior
+{
+	parent car_interior
+	diffuseMap HR_interior.png
+	specular 0.1 0.1 0.1 8
+}
+material HR_wheel
+{
+	parent car_base
+	diffuseMap HR_wheel.png
+	reflMap HR_wheel.png
+	env_map true
+	fresnel true
+	fresnelScaleBiasPower 0.7 0.15 4
+}
+
+//  OT
+material OT_glass
+{
+	parent car_glass2
+	diffuseMap OT_glass.png
+}
+material OT_interior
+{
+	parent car_interior
+	diffuseMap OT_interior.png
+	specular 0.2 0.2 0.2 8
+}
+material OT_wheel
+{
+	parent car_wheel
+	diffuseMap OT_wheel.png
+	reflMap OT_wheel_refl.png
+	diffuse 0.8 0.8 0.8
+	//specular 1 1 1 4
+	env_map true
+	fresnel true
+	fresnelScaleBiasPower 0.7 0.15 4
+}
+
+//  FR4
+material FR4_glass
+{
+	parent car_glass2
+	diffuseMap FR4_glass.png
+}
+material FR4_interior
+{
+	parent car_interior
+	diffuseMap FR4_interior.png
+	reflMap FR4_interior_refl.png
+	specular 0.3 0.3 0.3 4
+	env_map true
+	refl_amount 0.3
+	fresnel false
+	fresnelScaleBiasPower 0.7 0.15 4
+}
+material FR4_wheel
+{
+	parent car_wheel
+	diffuseMap FR4_wheel.png
+	specMap FR4_wheel_spec.png
+	reflMap FR4_wheel_refl.png
+	env_map true
+	fresnel true
+	fresnelScaleBiasPower 0.7 0.15 3
+}
+
+
+//  UV  -------------------------------------------------
+material UV_Tire
+{
+	parent car_base
+	diffuseMap UV_wheel.png
+	specMap UV_wheel_spec.png
+	reflMap UV_wheel_refl.png
+	ambient 0.5 0.5 0.5
+	diffuse 0.6 0.6 0.6
+	specular 1 1 1 4
+	env_map true
+	fresnel true
+	fresnelScaleBiasPower 0.7 0.15 4
+}
+material UV_interior
+{
+	parent car_base
+	diffuseMap UV_interior.png
+	reflMap UV_interior_refl.png
+	ambient 0.8 0.8 0.8
+	diffuse 0.7 0.7 0.7
+	specular 0.4 0.4 0.4 12
+	env_map true
+	fresnel true
+	fresnelScaleBiasPower 0.7 0.15 4
+}
+
+//  TW  -------------------------------
+material TW_glass
+{
+	parent car_interior
+	diffuseMap white.png
+	ambient 0.0 0.0 0.0
+	diffuse 0.0 0.0 0.0
+	specular 0.3 0.3 0.3 4
+	env_map true
+	refl_amount 0.3
+	fresnel false
+	fresnelScaleBiasPower 0.7 0.15 4
+}
+material TW_interior
+{
+	parent car_interior
+	diffuseMap TW_interior.png
+}
+
+material TW_wheel_front
+{
+	parent car_wheel
+	diffuseMap TW_wheel_front.png
+	reflMap TW_wheel_front_refl.png
+	env_map true
+	refl_amount 0.3
+}
+material TW_wheel_rear
+{
+	parent car_wheel
+	diffuseMap TW_wheel_rear.png
+	reflMap TW_wheel_rear_refl.png
+	env_map true
+	refl_amount 0.15
+}
+
+//  TU  -------------------------------
+material car_body_TU
+{
+	parent car_body
+	reflMap refl.png
+	specMap TU_body00_red.png
+}
+material TU_glass
+{
+	parent car_interior
+	diffuseMap white.png
+	ambient 0.0 0.08 0.1
+	diffuse 0.0 0.09 0.1
+	specular 0.9 0.9 0.9 32
+	env_map true
+	refl_amount 0.4
+	fresnel false
+	fresnelScaleBiasPower 0.7 0.15 4
+}
+material TU_interior
+{
+	parent car_interior
+	diffuseMap TU_interior.png
+	reflMap TU_interior_refl.png
+	specMap TU_interior_spec.png
+	specular 0.9 0.9 0.9 16
+	env_map true
+	refl_amount 0.3
+}
+
+material TU_wheel_front
+{
+	parent car_wheel
+	diffuseMap TU_wheel_front.png
+	reflMap TU_wheel_front_refl.png
+	specMap TU_wheel_front_refl.png
+	specular 0.5 0.5 0.5 32
+	env_map true
+	refl_amount 0.3
+}
+material TU_wheel_rear
+{
+	parent car_wheel
+	diffuseMap TU_wheel_rear.png
+	reflMap TU_wheel_rear_refl.png
+	specMap TU_wheel_rear_refl.png
+	specular 0.5 0.5 0.5 32
+	env_map true
+	refl_amount 0.3
+}
+
+
+//  SZ  -------------------------------------------------
+material car_body_SZ
+{
+	parent car_body
+	shadowBias 0.00006
+}
+material SZ_glass
+{
+	parent car_glass2
+	diffuseMap SZ_glass.png
+}
+material SZ_interior
+{
+	parent car_interior
+	diffuseMap SZ_interior.png
+	reflMap SZ_interior_refl.png
+	specMap SZ_interior_spec.png
+	ambient 0.7 0.7 0.7
+	diffuse 0.7 0.7 0.7
+	specular 0.5 0.5 0.5 32
+	shadowBias 0.00006
+}
+material SZ_wheel
+{
+	parent car_wheel
+	diffuseMap SZ_wheel.png
+	reflMap SZ_wheel_refl.png
+	specMap SZ_wheel_refl.png
+	specular 0.5 0.5 0.5 32
+	env_map true
+	refl_amount 0.3
+}
+
+//  FN
+material FN_glass
+{
+	parent car_glass2
+	diffuseMap FN_glass.png
+}
+material FN_interior
+{
+	parent car_interior
+	diffuseMap FN_interior.png
+}
+
+material FN_wheel
+{
+	parent car_wheel
+	diffuseMap FN_wheel.png
+	normalMap FN_wheel_norm.png
+	reflMap FN_wheel_refl.png
+	specMap FN_wheel_spec.png
+	ambient 0.9 0.9 0.9
+	diffuse 0.9 0.9 0.9
+	specular 1.0 1.0 1.0 6
+	env_map true
+	refl_amount 0.2
+}
+material FN_brake
+{
+	parent car_base
+	diffuseMap FN_brake.jpg
+	ambient 0.7 0.7 0.7
+	diffuse 0.7 0.7 0.7
+	specular 0.8 0.8 0.8 20
+}
+
+//  NG  ...
+material NG_glass
+{
+	parent car_glass
+	diffuseMap NG_glass.png
+}
+material NG_interior
+{
+	parent car_interior
+	diffuseMap white.png
+	ambient 0.3 0.3 0.3
+	diffuse 0.3 0.3 0.3
+	//specular 1.0 1.0 1.0 6
+}
+
+
+//  V1	-------------------------------------------------
+material V1_interior
+{
+	parent car_interior
+	diffuseMap V1_interior.png
+	specMap V1_interior_spec.png
+	ambient 0.9 0.9 0.9
+	diffuse 0.9 0.9 0.9
+	specular 1.0 1.0 1.0 6
+	//env_map true
+	//refl_amount 0.2
+}
+
+//  V2
+material V2_interior
+{
+	parent car_interior
+	diffuseMap V2_interior.png
+	//specMap V3_interior_spec.png
+	ambient 0.7 0.7 0.7
+	diffuse 0.7 0.8 0.8
+	specular 0.8 0.8 0.8 24
+	env_map true
+	refl_amount 0.1
+}
+material V2_glass
+{
+	parent car_interior
+	diffuseMap white.png
+	ambient 0.1 0.2 0.2
+	diffuse 0.1 0.2 0.2
+	specular 0.9 1 1 16
+	env_map true
+	refl_amount 0.3
+	fresnel false
+	fresnelScaleBiasPower 0.7 0.15 4
+}
+
+//  V3
+material V3_interior
+{
+	parent car_interior
+	diffuseMap V3_interior.png
+	//specMap V3_interior_spec.png
+	ambient 0.8 0.8 0.8
+	diffuse 0.8 0.8 0.8
+	specular 1.0 1.0 1.0 16
+	env_map true
+	refl_amount 0.05
+}
+material V3_glass
+{
+	parent car_interior
+	diffuseMap white.png
+	ambient 0.1 0.2 0.2
+	diffuse 0.1 0.2 0.2
+	specular 0.9 1 1 16
+	env_map true
+	refl_amount 0.3
+}
+
+//  O
+material O_glass
+{
+	parent car_glass2
+	diffuseMap O_glass.png
+}
+
+
+//  Y7  -------------------------------
+material Y7_glass
+{
+	parent car_glass2
+	diffuseMap Y7_glass.png
+}
+material Y7_interior
+{
+	parent car_base
+	diffuseMap Y7_interior.png
+	specMap Y7_interior_spec.png
+	reflMap Y7_interior_refl.png
+	ambient 0.6 0.6 0.6
+	diffuse 0.6 0.6 0.6
+	specular 0.9 0.9 0.9 24
+	env_map true
+	fresnel true
+	fresnelScaleBiasPower 0.6 0.15 4
+}
+material Y7_wheel
+{
+	parent car_base
+	diffuseMap Y7_Tire.png
+	normalMap Y7_Tire_norm.png
+	specMap Y7_Tire_spec.png
+	reflMap Y7_Tire_refl.png
+	ambient 0.4 0.4 0.4
+	diffuse 0.4 0.4 0.4
+	specular 0.8 0.8 0.8 16
+	env_map true
+	fresnel true
+	fresnelScaleBiasPower 0.6 0.15 4
+}
+material Y7_brake
+{
+	parent car_base
+	diffuseMap Y7_Tire.png
+	normalMap Y7_Tire_norm.png
+	ambient 0.5 0.5 0.5
+	diffuse 0.5 0.5 0.5
+	specular 0.6 0.6 0.6 4
+}
+
+//  BV  -------------------------------------------------
+material BV_interior
+{
+	parent car_base
+	diffuseMap BV_interior.png
+	reflMap BV_interior_refl.png
+	ambient 0.4 0.4 0.4
+	diffuse 0.4 0.4 0.4
+	specular 0.8 0.8 0.8 24
+	env_map true
+	fresnel true
+	fresnelScaleBiasPower 0.6 0.15 4
+}
+material BV_wheel
+{
+	parent car_wheel
+	diffuseMap BV_wheel.png
+	normalMap BV_wheel_norm.png
+	reflMap BV_wheel_refl.png
+	bump_scale 0.2
+	ambient 0.8 0.8 0.8
+	diffuse 0.6 0.6 0.6
+	specular 0.3 0.3 0.3 16
+	env_map true
+	//refl_amount 0.3
+	fresnel true
+	fresnelScaleBiasPower 0.6 0.15 4
+}
+
+
+//  U6  -------------------------------------------------
+material U6_interior
+{
+	parent car_base
+	diffuseMap U6_interior.png
+	reflMap U6_interior_refl.png
+	ambient 0.4 0.4 0.4
+	diffuse 0.4 0.4 0.4
+	specular 0.8 0.8 0.8 24
+	env_map true
+	fresnel true
+	fresnelScaleBiasPower 0.6 0.15 4
+}
+material U6_wheel
+{
+	parent car_base
+	diffuseMap U6_wheel.png
+	specMap U6_wheel_refl.png
+	reflMap U6_wheel_refl.png
+	ambient 0.5 0.5 0.5
+	diffuse 0.7 0.7 0.7
+	specular 1 1 1 8
+	env_map true
+	fresnel true
+	fresnelScaleBiasPower 0.7 0.15 4
+}
+
+//  U8  -------------------------------
+material car_body_U8
+{
+	parent car_body
+	reflMap U8_refl.png
+	specMap U8_refl.png
+	cull_hardware none
+    //twoside_diffuse true
+}
+material U8_glass
+{
+	parent car_glass
+	diffuseMap U8_glass.png
+}
+material U8_interior
+{
+	parent car_base
+	diffuseMap U8_interior.png
+	specMap U8_interior_spec.png
+	ambient 0.5 0.5 0.5
+	diffuse 0.6 0.6 0.6
+	specular 1 1 1  4
+	env_map false
+}
+material U8_wheel
+{
+	parent car_base
+	diffuseMap U8_wheel.png
+	specMap U8_wheel_refl.png
+	reflMap U8_wheel_refl.png
+	//ambient 0.5 0.5 0.5
+	//diffuse 0.7 0.7 0.7
+	specular 1 1 1 16
+	env_map true
+	fresnel true
+	fresnelScaleBiasPower 0.7 0.15 4
+}
+
+
+//  MO  -------------------------------
+material car_body_MO
+{
+	parent car_body
+	specMap MO_body00_red.png
+	ambient 0.9 0.9 0.9
+	cull_hardware none
+    //twoside_diffuse true
+}
+material MO_interior
+{
+	parent car_base
+	diffuseMap MO_interior.png
+	ambient 1 1 1
+	diffuse 0.8 0.8 0.8
+	specular 0.5 0.5 0.5  16
+	env_map false
+}
+material MO_wheel
+{
+	parent car_base
+	diffuseMap MO_wheel.png
+	normalMap MO_wheel_norm.png
+	ambient 1 1 1
+	diffuse 0.9 0.9 0.9
+	specular 0.2 0.2 0.2  4
+	env_map false
+}
+
+//  3B  -------------------------------
+material 3B_body
+{
+	parent car_body
+	normalMap 3B_norm.jpg
+	specMap 3B_spec.jpg
+    specMap_rgb true
+	specular 1 1 1  8
+}
+material 3B_interior
+{
+	parent car_body
+	diffuseMap 3B_body00_red.png
+	normalMap 3B_norm.jpg
+	specMap 3B_spec.jpg
+    specMap_rgb true
+	diffuse 0.6 0.6 0.6
+	specular 1 1 1  8
+}
+material 3B_wheel
+{
+	parent car_body
+	diffuseMap 3B_wheel.jpg
+	normalMap 3B_norm.jpg
+	ambient 0.4 0.4 0.4
+	diffuse 0.3 0.3 0.3
+	specular 0.6 0.6 0.6  2.5
+}
+
+
+//  BE  -------------------------------
+material BE_body
+{
+	parent car_body
+	carPaintMap BE_body00_red.png
+	normalMap BE_norm.jpg
+	specular 1 1 1  8
+}
+material BE_body_noclr
+{
+	parent car_body
+	diffuseMap BE_body00_red.png
+	normalMap BE_norm.jpg
+	ambient 0.5 0.5 0.5
+	diffuse 0.5 0.5 0.5
+	specular 1 1 1  16
+}
+material BE_interior
+{
+	parent car_body
+	diffuseMap BE_interior.jpg
+	normalMap BE_interior_norm.jpg
+	//diffuse 0.6 0.6 0.6
+	specular 1 1 1  2.5
+}
+material BE_wheel
+{
+	parent car_body
+	diffuseMap BE_wheel.jpg
+	normalMap BE_wheel_norm.jpg
+	ambient 1 1 1
+	diffuse 0.6 0.6 0.6
+	specular 0.2 0.2 0.2  4
+}
+
+
+//  SX  -------------------------------
+material SX_glass
+{
+	parent car_glass
+	diffuseMap SX_glass.png
+}
+material SX_interior
+{
+	parent car_base
+	diffuseMap SX_interior.png
+	ambient 0.5 0.5 0.5
+	diffuse 0.5 0.5 0.5
+	specular 0.2 0.2 0.2 12
+}
+material SX_exterior
+{
+	parent car_base
+	diffuseMap SX_exterior.png
+	ambient 0.5 0.5 0.5
+	diffuse 0.5 0.5 0.5
+	specular 0.5 0.5 0.5 24
+}
+material SX_wheel
+{
+	parent car_base
+	diffuseMap SX_wheel.png
+	normalMap flat_n.png
+	specMap SX_wheel_spec.png
+	reflMap SX_wheel_refl.png
+	ambient 0.6 0.6 0.6
+	diffuse 0.7 0.7 0.7
+	specular 1 1 1 24
+	env_map true
+	refl_amount 0.2
+}
+
+//  PH  -------------------------------
+material PH_glass
+{
+	parent car_glass
+	diffuseMap PH_glass.png
+}
+material PH_interior
+{
+	parent car_base
+	diffuseMap PH_interior.png
+	ambient 0.6 0.6 0.6
+	diffuse 0.6 0.6 0.6
+	specular 0.9 0.9 0.9 24
+}
+material PH_engine
+{
+	parent car_base
+	diffuseMap PH_engine.png
+	normalMap PH_engine_norm.png
+	ambient 0.6 0.6 0.6
+	diffuse 0.6 0.6 0.6
+	specular 0.9 0.9 0.9 24
+}
+material PH_engineA
+{
+	parent car_base
+	diffuseMap PH_engine.png
+	normalMap PH_engine_norm.png
+	ambient 0.6 0.6 0.6
+	diffuse 0.6 0.6 0.6
+	specular 0.9 0.9 0.9 24
+}
+
+material PH_exterior
+{
+	parent car_base
+	diffuseMap PH_interior.png
+	ambient 0.6 0.6 0.6
+	diffuse 0.6 0.6 0.6
+	specular 0.9 0.9 0.9 24
+}
+
+material CSR2_Interior
+{
+	parent car_base
+	diffuseMap PH_interior2.png
+	normalMap PH_interior2_norm.png
+	ambient 0.6 0.6 0.6
+	diffuse 0.6 0.6 0.6
+	specular 0.9 0.9 0.9 24
+}
+material CSR2_InteriorA_Zone1
+{
+	parent car_base
+	diffuseMap PH_interior2.png
+	normalMap PH_interior2_norm.png
+	ambient 0.6 0.6 0.6
+	diffuse 0.6 0.6 0.6
+	specular 0.9 0.9 0.9 24
+}
+
+material PH_wheel
+{
+	parent car_base
+	diffuseMap PH_wheel.png
+	normalMap PH_wheel_norm.png
+	ambient 1 1 1
+	diffuse 1 1 1
+	specular 0.8 0.8 0.8 16
+}
