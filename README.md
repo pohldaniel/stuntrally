@@ -14,7 +14,7 @@ Used major libraries <br/>
 &emsp;https://github.com/assimp/assimp/releases/tag/v5.2.5<br/>
 &emsp;https://www.boost.org/users/history/version_1_81_0.html.5<br/>
 
-Installing Boost out of the "VS Native Command Prompt"
+**Installing Boost:** Out of the "VS Native Command Prompt"
 
 Change the Directory to the downloaddirectory of Boost with "cd boost_1_81_0", type
 
