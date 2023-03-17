@@ -1,4 +1,4 @@
-# Stuntrally 2.70
+# Stuntrally 2.7.0
 
 This repository contains a Visual Studio 2015 setup of https://github.com/stuntrally/stuntrally and it's dependencies. After compiling keep in mind the tools folder for setting up the Release Folder. The build process is just tested with Release x64 configuration. It should be clear that the Copyright of Stuntrally and of it's dependencies are not in my hand.
 
