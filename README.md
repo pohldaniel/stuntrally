@@ -6,7 +6,7 @@ Out of the "VS Native Command Prompt"
 
 Change the Directory to the downloaddirectory of Boost with "cd boost_1_81_0", type
 
-  bootstrap.bat
+  &emsp;bootstrap.bat
 
 and depending on the choosen "VS Native Command Prompt" the build will be x64 or x86
 
