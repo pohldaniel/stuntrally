@@ -4,7 +4,7 @@ Boost 1.81.0 https://www.boost.org/users/history/version_1_81_0.html.
 
 Out of the "VS Native Command Prompt"
 
-Change the Directory to Downloaddirectory of Boost with "cd boost_1_81_0", type
+Change the Directory to the downloaddirectory of Boost with "cd boost_1_81_0", type
 
   bootstrap.bat
 
