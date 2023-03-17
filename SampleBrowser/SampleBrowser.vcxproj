@@ -98,7 +98,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;INCLUDE_RTSHADER_SYSTEM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\OgreMain\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreBites\include;..\OgreBites\common;..\OgreRTShaderSystem\include;..\OgreRTShaderSystem\common;..\DefaultSamples\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\OgreOverlay\include;..\OgreBites\include;..\OgreRTShaderSystem\include;..\DefaultSamples\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -114,7 +114,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;INCLUDE_RTSHADER_SYSTEM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\OgreMain\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreBites\include;..\OgreBites\common;..\OgreRTShaderSystem\include;..\OgreRTShaderSystem\common;..\DefaultSamples\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\OgreOverlay\include;..\OgreBites\include;..\OgreRTShaderSystem\include;..\DefaultSamples\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -132,7 +132,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;INCLUDE_RTSHADER_SYSTEM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\OgreMain\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreBites\include;..\OgreBites\common;..\OgreRTShaderSystem\include;..\OgreRTShaderSystem\common;..\DefaultSamples\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\OgreOverlay\include;..\OgreBites\include;..\OgreRTShaderSystem\include;..\DefaultSamples\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -152,7 +152,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;INCLUDE_RTSHADER_SYSTEM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\OgreMain\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreBites\include;..\OgreBites\common;..\OgreRTShaderSystem\include;..\OgreRTShaderSystem\common;..\DefaultSamples\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\OgreOverlay\include;..\OgreBites\include;..\OgreRTShaderSystem\include;..\DefaultSamples\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>

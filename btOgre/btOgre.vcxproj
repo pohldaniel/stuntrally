@@ -19,16 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BtOgre.cpp" />
-    <ClCompile Include="BtOgreAnim.cpp" />
-    <ClCompile Include="BtOgreDebug.cpp" />
-    <ClCompile Include="DynamicLines.cpp" />
+    <ClInclude Include="..\source\btOgre\BtOgreDebug.h" />
+    <ClInclude Include="..\source\btOgre\BtOgreGP.h" />
+    <ClInclude Include="..\source\btOgre\BtOgrePG.h" />
+    <ClInclude Include="..\source\btOgre\DynamicLines.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BtOgreDebug.h" />
-    <ClInclude Include="BtOgreGP.h" />
-    <ClInclude Include="BtOgrePG.h" />
-    <ClInclude Include="DynamicLines.h" />
+    <ClCompile Include="..\source\btOgre\BtOgre.cpp" />
+    <ClCompile Include="..\source\btOgre\BtOgreAnim.cpp" />
+    <ClCompile Include="..\source\btOgre\BtOgreDebug.cpp" />
+    <ClCompile Include="..\source\btOgre\DynamicLines.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{904133CE-49D9-4CA6-9566-6F51DB385EE9}</ProjectGuid>
@@ -100,7 +100,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\libmygui\include;..\libmyguiogreplatform\include;..\SDL2\include;..\libbullet;..\tinyxml2;..\tinyxml;..\vorbisfile\include;..\ogg\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\libmygui\include;..\libmyguiogreplatform\include;..\SDL2\include;..\libbullet;..\tinyxml2;..\tinyxml;..\vorbisfile\include;..\ogg\include</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -114,7 +114,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\libmygui\include;..\libmyguiogreplatform\include;..\SDL2\include;..\libbullet;..\tinyxml2;..\tinyxml;..\vorbisfile\include;..\ogg\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\libmygui\include;..\libmyguiogreplatform\include;..\SDL2\include;..\libbullet;..\tinyxml2;..\tinyxml;..\vorbisfile\include;..\ogg\include</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -130,7 +130,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\libmygui\include;..\libmyguiogreplatform\include;..\SDL2\include;..\libbullet;..\tinyxml2;..\tinyxml;..\vorbisfile\include;..\ogg\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\libmygui\include;..\libmyguiogreplatform\include;..\SDL2\include;..\libbullet;..\tinyxml2;..\tinyxml;..\vorbisfile\include;..\ogg\include</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -148,7 +148,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\libmygui\include;..\libmyguiogreplatform\include;..\SDL2\include;..\libbullet;..\tinyxml2;..\tinyxml;..\vorbisfile\include;..\ogg\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\libmygui\include;..\libmyguiogreplatform\include;..\SDL2\include;..\libbullet;..\tinyxml2;..\tinyxml;..\vorbisfile\include;..\ogg\include</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>

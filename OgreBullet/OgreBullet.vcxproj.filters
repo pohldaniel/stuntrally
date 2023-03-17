@@ -23,5 +23,8 @@
     <ClInclude Include="include\OgreBullet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\OgreBulletExports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

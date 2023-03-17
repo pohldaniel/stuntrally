@@ -1,0 +1,37 @@
+copy ..\lib\x64\Codec_Assimp.dll ..\x64\Release
+copy ..\lib\x64\Codec_STBI.dll ..\x64\Release
+copy ..\lib\x64\Codec_FreeImage.dll ..\x64\Release
+copy ..\lib\x64\DefaultSamples.dll ..\x64\Release
+copy ..\lib\x64\OgreBites.dll ..\x64\Release
+copy ..\lib\x64\OgreBullet.dll ..\x64\Release
+copy ..\lib\x64\OgreMain.dll ..\x64\Release
+copy ..\lib\x64\OgreMeshLodGenerator.dll ..\x64\Release
+copy ..\lib\x64\OgreOverlay.dll ..\x64\Release
+copy ..\lib\x64\OgrePaging.dll ..\x64\Release
+copy ..\lib\x64\OgreProperty.dll ..\x64\Release
+copy ..\lib\x64\OgreRTShaderSystem.dll ..\x64\Release
+copy ..\lib\x64\OgreTerrain.dll ..\x64\Release
+copy ..\lib\x64\OgreVolume.dll ..\x64\Release
+copy ..\lib\x64\Plugin_BSPSceneManager.dll ..\x64\Release
+copy ..\lib\x64\Plugin_CgProgramManager.dll ..\x64\Release
+copy ..\lib\x64\Plugin_DotScene.dll ..\x64\Release
+copy ..\lib\x64\Plugin_OctreeSceneManager.dll ..\x64\Release
+copy ..\lib\x64\Plugin_OctreeZone.dll ..\x64\Release
+copy ..\lib\x64\Plugin_ParticleFX.dll ..\x64\Release
+copy ..\lib\x64\Plugin_PCZSceneManager.dll ..\x64\Release
+copy ..\lib\x64\RenderSystem_Direct3D9.dll ..\x64\Release
+copy ..\lib\x64\RenderSystem_Direct3D11.dll ..\x64\Release
+copy ..\lib\x64\RenderSystem_GL.dll ..\x64\Release
+copy ..\lib\x64\RenderSystem_GL3Plus.dll ..\x64\Release
+copy ..\lib\x64\RenderSystem_GLES2.dll ..\x64\Release
+copy ..\lib\x64\SDL2.dll ..\x64\Release
+
+copy ..\libCG\x64\cg.dll ..\x64\Release
+copy ..\libCG\x64\cgD3D9.dll ..\x64\Release
+copy ..\libCG\x64\cgD3D10.dll ..\x64\Release
+copy ..\libCG\x64\cgD3D11.dll ..\x64\Release
+copy ..\libCG\x64\cgGl.dll ..\x64\Release
+
+copy ..\OgreData\plugins.cfg ..\x64\Release
+copy ..\OgreData\resources.cfg ..\x64\Release
+copy ..\OgreData\samples.cfg ..\x64\Release

@@ -19,29 +19,29 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main\Factory.cpp" />
-    <ClCompile Include="Main\MaterialInstance.cpp" />
-    <ClCompile Include="Main\MaterialInstancePass.cpp" />
-    <ClCompile Include="Main\MaterialInstanceTextureUnit.cpp" />
-    <ClCompile Include="Main\Platform.cpp" />
-    <ClCompile Include="Main\Preprocessor.cpp" />
-    <ClCompile Include="Main\PropertyBase.cpp" />
-    <ClCompile Include="Main\ScriptLoader.cpp" />
-    <ClCompile Include="Main\ShaderInstance.cpp" />
-    <ClCompile Include="Main\ShaderSet.cpp" />
+    <ClInclude Include="..\source\shiny\Main\Factory.hpp" />
+    <ClInclude Include="..\source\shiny\Main\Language.hpp" />
+    <ClInclude Include="..\source\shiny\Main\MaterialInstance.hpp" />
+    <ClInclude Include="..\source\shiny\Main\MaterialInstancePass.hpp" />
+    <ClInclude Include="..\source\shiny\Main\MaterialInstanceTextureUnit.hpp" />
+    <ClInclude Include="..\source\shiny\Main\Platform.hpp" />
+    <ClInclude Include="..\source\shiny\Main\Preprocessor.hpp" />
+    <ClInclude Include="..\source\shiny\Main\PropertyBase.hpp" />
+    <ClInclude Include="..\source\shiny\Main\ScriptLoader.hpp" />
+    <ClInclude Include="..\source\shiny\Main\ShaderInstance.hpp" />
+    <ClInclude Include="..\source\shiny\Main\ShaderSet.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Main\Factory.hpp" />
-    <ClInclude Include="Main\Language.hpp" />
-    <ClInclude Include="Main\MaterialInstance.hpp" />
-    <ClInclude Include="Main\MaterialInstancePass.hpp" />
-    <ClInclude Include="Main\MaterialInstanceTextureUnit.hpp" />
-    <ClInclude Include="Main\Platform.hpp" />
-    <ClInclude Include="Main\Preprocessor.hpp" />
-    <ClInclude Include="Main\PropertyBase.hpp" />
-    <ClInclude Include="Main\ScriptLoader.hpp" />
-    <ClInclude Include="Main\ShaderInstance.hpp" />
-    <ClInclude Include="Main\ShaderSet.hpp" />
+    <ClCompile Include="..\source\shiny\Main\Factory.cpp" />
+    <ClCompile Include="..\source\shiny\Main\MaterialInstance.cpp" />
+    <ClCompile Include="..\source\shiny\Main\MaterialInstancePass.cpp" />
+    <ClCompile Include="..\source\shiny\Main\MaterialInstanceTextureUnit.cpp" />
+    <ClCompile Include="..\source\shiny\Main\Platform.cpp" />
+    <ClCompile Include="..\source\shiny\Main\Preprocessor.cpp" />
+    <ClCompile Include="..\source\shiny\Main\PropertyBase.cpp" />
+    <ClCompile Include="..\source\shiny\Main\ScriptLoader.cpp" />
+    <ClCompile Include="..\source\shiny\Main\ShaderInstance.cpp" />
+    <ClCompile Include="..\source\shiny\Main\ShaderSet.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{747B387F-FD44-4ED0-8F4B-75EC5AB27384}</ProjectGuid>
@@ -113,7 +113,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbis\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbis\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -127,7 +127,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbis\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbis\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -143,7 +143,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbis\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbis\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -161,7 +161,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbis\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbis\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>

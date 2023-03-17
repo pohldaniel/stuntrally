@@ -22,14 +22,14 @@
     <ResourceCompile Include="misc\OgreWin32Resources.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="common\OgreBitesPrerequisites.h" />
-    <ClInclude Include="common\OgreConfigPaths.h" />
     <ClInclude Include="include\OgreAdvancedRenderControls.h" />
     <ClInclude Include="include\OgreApplicationContext.h" />
     <ClInclude Include="include\OgreApplicationContextBase.h" />
     <ClInclude Include="include\OgreApplicationContextQt.h" />
     <ClInclude Include="include\OgreBitesConfigDialog.h" />
+    <ClInclude Include="include\OgreBitesPrerequisites.h" />
     <ClInclude Include="include\OgreCameraMan.h" />
+    <ClInclude Include="include\OgreConfigPaths.h" />
     <ClInclude Include="include\OgreImGuiInputListener.h" />
     <ClInclude Include="include\OgreInput.h" />
     <ClInclude Include="include\OgreSGTechniqueResolverListener.h" />
@@ -126,7 +126,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;OgreBites_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreRTShaderSystem\include;..\OgreRTShaderSystem\common;..\SDL2\include;..\libimgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\OgreOverlay\include;..\OgreRTShaderSystem\include;..\SDL2\include;..\libimgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -143,7 +143,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;OgreBites_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreRTShaderSystem\include;..\OgreRTShaderSystem\common;..\SDL2\include;..\libimgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\OgreOverlay\include;..\OgreRTShaderSystem\include;..\SDL2\include;..\libimgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -162,7 +162,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;OgreBites_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreRTShaderSystem\include;..\OgreRTShaderSystem\common;..\SDL2\include;..\libimgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\OgreOverlay\include;..\OgreRTShaderSystem\include;..\SDL2\include;..\libimgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -183,7 +183,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;OgreBites_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreRTShaderSystem\include;..\OgreRTShaderSystem\common;..\SDL2\include;..\libimgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\OgreOverlay\include;..\OgreRTShaderSystem\include;..\SDL2\include;..\libimgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

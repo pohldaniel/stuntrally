@@ -15,33 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="events.h">
+    <ClInclude Include="..\source\sdl4ogre\cursormanager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="OISCompat.h">
+    <ClInclude Include="..\source\sdl4ogre\events.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="sdlcursormanager.hpp">
+    <ClInclude Include="..\source\sdl4ogre\OISCompat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="sdlinputwrapper.hpp">
+    <ClInclude Include="..\source\sdl4ogre\sdlcursormanager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="sdlwindowhelper.hpp">
+    <ClInclude Include="..\source\sdl4ogre\sdlinputwrapper.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cursormanager.hpp">
+    <ClInclude Include="..\source\sdl4ogre\sdlwindowhelper.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sdlcursormanager.cpp">
+    <ClCompile Include="..\source\sdl4ogre\sdlcursormanager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sdlinputwrapper.cpp">
+    <ClCompile Include="..\source\sdl4ogre\sdlinputwrapper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sdlwindowhelper.cpp">
+    <ClCompile Include="..\source\sdl4ogre\sdlwindowhelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -45,12 +45,12 @@
     <ClCompile Include="src\OgreGLES2TextureManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="common\OgreGLES2Config.h" />
-    <ClInclude Include="common\OgreGLES2Exports.h" />
     <ClInclude Include="include\GLES3\gl3.h" />
     <ClInclude Include="include\GLES3\gl3platform.h" />
     <ClInclude Include="include\GLES3\glesw.h" />
     <ClInclude Include="include\KHR\khrplatform.h" />
+    <ClInclude Include="include\OgreGLES2Config.h" />
+    <ClInclude Include="include\OgreGLES2Exports.h" />
     <ClInclude Include="include\OgreGLES2FBOMultiRenderTarget.h" />
     <ClInclude Include="include\OgreGLES2FBORenderTexture.h" />
     <ClInclude Include="include\OgreGLES2FrameBufferObject.h" />
@@ -152,7 +152,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;RenderSystem_GLES2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;src\GLSLES\include;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;..\OgreGLSupport\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;src\GLSLES\include;..\OgreMain\include;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -169,7 +169,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;RenderSystem_GLES2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;src\GLSLES\include;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;..\OgreGLSupport\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;src\GLSLES\include;..\OgreMain\include;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -188,7 +188,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;RenderSystem_GLES2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;src\GLSLES\include;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;..\OgreGLSupport\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;src\GLSLES\include;..\OgreMain\include;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -209,7 +209,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;RenderSystem_GLES2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;src\GLSLES\include;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;..\OgreGLSupport\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;src\GLSLES\include;..\OgreMain\include;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

@@ -89,6 +89,7 @@
     <ClInclude Include="include\OgreGLRenderSystem.h" />
     <ClInclude Include="include\OgreGLRenderToVertexBuffer.h" />
     <ClInclude Include="include\OgreGLStateCacheManager.h" />
+    <ClInclude Include="include\OgreGLSupportPrerequisites.h" />
     <ClInclude Include="include\OgreGLTexture.h" />
     <ClInclude Include="include\OgreGLTextureManager.h" />
     <ClInclude Include="src\GLSL\include\OgreGLSLExtSupport.h" />
@@ -189,7 +190,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;OGRE_GLPLUGIN_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;src\GLSL\include;src\atifs\include;src\nvparse;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;src\GLSL\include;src\atifs\include;src\nvparse;..\OgreMain\include;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -206,7 +207,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;OGRE_GLPLUGIN_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;src\GLSL\include;src\atifs\include;src\nvparse;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;src\GLSL\include;src\atifs\include;src\nvparse;..\OgreMain\include;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -225,7 +226,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;OGRE_GLPLUGIN_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;src\GLSL\include;src\atifs\include;src\nvparse;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;src\GLSL\include;src\atifs\include;src\nvparse;..\OgreMain\include;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -246,7 +247,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;OGRE_GLPLUGIN_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;src\GLSL\include;src\atifs\include;src\nvparse;..\OgreMain\include;..\OgreMain\common;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;src\GLSL\include;src\atifs\include;src\nvparse;..\OgreMain\include;..\OgreGLSupport\include;..\OgreGLSupport\include\GLSL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

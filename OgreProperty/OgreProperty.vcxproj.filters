@@ -23,7 +23,7 @@
     <ClInclude Include="include\OgreProperty.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="common\OgrePropertyPrerequisites.h">
+    <ClInclude Include="include\OgrePropertyPrerequisites.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

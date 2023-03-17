@@ -63,6 +63,9 @@
     <ClInclude Include="include\OgreSegment.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\OgrePCZPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\OgreAntiPortal.cpp">

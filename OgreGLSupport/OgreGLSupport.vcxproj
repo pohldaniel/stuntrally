@@ -46,6 +46,7 @@
     <ClInclude Include="include\OgreGLRenderTarget.h" />
     <ClInclude Include="include\OgreGLRenderTexture.h" />
     <ClInclude Include="include\OgreGLStateCacheManagerCommon.h" />
+    <ClInclude Include="include\OgreGLSupportPrerequisites.h" />
     <ClInclude Include="include\OgreGLTextureCommon.h" />
     <ClInclude Include="include\OgreGLUniformCache.h" />
     <ClInclude Include="include\OgreGLUtil.h" />
@@ -136,7 +137,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;Plugin_OctreeSceneManager_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;include\GLSL;include\win32;common;..\OgreMain\include;..\OgreMain\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;include\GLSL;include\win32;..\OgreMain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -153,7 +154,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;Plugin_OctreeSceneManager_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;include\GLSL;include\win32;common;..\OgreMain\include;..\OgreMain\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;include\GLSL;include\win32;..\OgreMain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -172,7 +173,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;Plugin_OctreeSceneManager_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;include\GLSL;include\win32;common;..\OgreMain\include;..\OgreMain\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;include\GLSL;include\win32;..\OgreMain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -193,7 +194,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;Plugin_OctreeSceneManager_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;include\GLSL;include\win32;common;..\OgreMain\include;..\OgreMain\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;include\GLSL;include\win32;..\OgreMain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

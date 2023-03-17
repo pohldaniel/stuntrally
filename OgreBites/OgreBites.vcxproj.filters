@@ -59,10 +59,10 @@
     <ClInclude Include="include\OgreWindowEventUtilities.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="common\OgreBitesPrerequisites.h">
+    <ClInclude Include="include\OgreBitesPrerequisites.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="common\OgreConfigPaths.h">
+    <ClInclude Include="include\OgreConfigPaths.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

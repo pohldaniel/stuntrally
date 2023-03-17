@@ -19,17 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cursormanager.hpp" />
-    <ClInclude Include="events.h" />
-    <ClInclude Include="OISCompat.h" />
-    <ClInclude Include="sdlcursormanager.hpp" />
-    <ClInclude Include="sdlinputwrapper.hpp" />
-    <ClInclude Include="sdlwindowhelper.hpp" />
+    <ClInclude Include="..\source\sdl4ogre\cursormanager.hpp" />
+    <ClInclude Include="..\source\sdl4ogre\events.h" />
+    <ClInclude Include="..\source\sdl4ogre\OISCompat.h" />
+    <ClInclude Include="..\source\sdl4ogre\sdlcursormanager.hpp" />
+    <ClInclude Include="..\source\sdl4ogre\sdlinputwrapper.hpp" />
+    <ClInclude Include="..\source\sdl4ogre\sdlwindowhelper.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sdlcursormanager.cpp" />
-    <ClCompile Include="sdlinputwrapper.cpp" />
-    <ClCompile Include="sdlwindowhelper.cpp" />
+    <ClCompile Include="..\source\sdl4ogre\sdlcursormanager.cpp" />
+    <ClCompile Include="..\source\sdl4ogre\sdlinputwrapper.cpp" />
+    <ClCompile Include="..\source\sdl4ogre\sdlwindowhelper.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A4FB29A6-A0A4-4722-AC8F-28580BF46146}</ProjectGuid>
@@ -101,7 +101,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -115,7 +115,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -131,7 +131,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -149,7 +149,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>

@@ -19,21 +19,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ICSChannel.cpp" />
-    <ClCompile Include="ICSControl.cpp" />
-    <ClCompile Include="ICSInputControlSystem.cpp" />
-    <ClCompile Include="ICSInputControlSystem_joystick.cpp" />
-    <ClCompile Include="ICSInputControlSystem_keyboard.cpp" />
-    <ClCompile Include="ICSInputControlSystem_mouse.cpp" />
-    <ClCompile Include="ICSPrerequisites.cpp" />
+    <ClInclude Include="..\source\oics\ICSChannel.h" />
+    <ClInclude Include="..\source\oics\ICSChannelListener.h" />
+    <ClInclude Include="..\source\oics\ICSControl.h" />
+    <ClInclude Include="..\source\oics\ICSControlListener.h" />
+    <ClInclude Include="..\source\oics\ICSInputControlSystem.h" />
+    <ClInclude Include="..\source\oics\ICSPrerequisites.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ICSChannel.h" />
-    <ClInclude Include="ICSChannelListener.h" />
-    <ClInclude Include="ICSControl.h" />
-    <ClInclude Include="ICSControlListener.h" />
-    <ClInclude Include="ICSInputControlSystem.h" />
-    <ClInclude Include="ICSPrerequisites.h" />
+    <ClCompile Include="..\source\oics\ICSChannel.cpp" />
+    <ClCompile Include="..\source\oics\ICSControl.cpp" />
+    <ClCompile Include="..\source\oics\ICSInputControlSystem.cpp" />
+    <ClCompile Include="..\source\oics\ICSInputControlSystem_joystick.cpp" />
+    <ClCompile Include="..\source\oics\ICSInputControlSystem_keyboard.cpp" />
+    <ClCompile Include="..\source\oics\ICSInputControlSystem_mouse.cpp" />
+    <ClCompile Include="..\source\oics\ICSPrerequisites.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{10569AFC-D729-4451-9D3C-BB9A38DD533D}</ProjectGuid>
@@ -105,7 +105,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\SDL2\include;..\vorbisfile\include;..\ogg\include;..\libbullet;..\libmygui\include;..\libmyguiogreplatform\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\SDL2\include;..\vorbisfile\include;..\ogg\include;..\libbullet;..\libmygui\include;..\libmyguiogreplatform\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -119,7 +119,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\SDL2\include;..\vorbisfile\include;..\ogg\include;..\libbullet;..\libmygui\include;..\libmyguiogreplatform\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\SDL2\include;..\vorbisfile\include;..\ogg\include;..\libbullet;..\libmygui\include;..\libmyguiogreplatform\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -135,7 +135,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\SDL2\include;..\vorbisfile\include;..\ogg\include;..\libbullet;..\libmygui\include;..\libmyguiogreplatform\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\SDL2\include;..\vorbisfile\include;..\ogg\include;..\libbullet;..\libmygui\include;..\libmyguiogreplatform\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -153,7 +153,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_LIB;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\SDL2\include;..\vorbisfile\include;..\ogg\include;..\libbullet;..\libmygui\include;..\libmyguiogreplatform\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\OgreMain\include;..\OgreBites\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\SDL2\include;..\vorbisfile\include;..\ogg\include;..\libbullet;..\libmygui\include;..\libmyguiogreplatform\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>

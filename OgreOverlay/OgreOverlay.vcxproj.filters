@@ -116,5 +116,8 @@
     <ClInclude Include="include\OgreTextAreaOverlayElement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\OgreOverlayPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

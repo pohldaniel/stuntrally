@@ -88,7 +88,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;AL_LIBTYPE_STATIC;MYGUI_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\source\vdrift;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\openal\include;..\openal\include\AL;..\libenet\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\source\ogre\common;..\source\vdrift;..\OgreMain\include;..\OgreBites\include;..\OgreOverlay\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\openal\include;..\openal\include\AL;..\libenet\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -105,7 +105,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;NOMINMAX;AL_LIBTYPE_STATIC;MYGUI_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\source\vdrift;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\openal\include;..\openal\include\AL;..\libenet\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\source\ogre\common;..\source\vdrift;..\OgreMain\include;..\OgreBites\include;..\OgreOverlay\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\openal\include;..\openal\include\AL;..\libenet\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -124,7 +124,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;AL_LIBTYPE_STATIC;MYGUI_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\source\vdrift;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\openal\include;..\openal\include\AL;..\libenet\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\source\ogre\common;..\source\vdrift;..\OgreMain\include;..\OgreBites\include;..\OgreOverlay\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\openal\include;..\openal\include\AL;..\libenet\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -145,7 +145,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;NOMINMAX;AL_LIBTYPE_STATIC;MYGUI_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\source\vdrift;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\openal\include;..\openal\include\AL;..\libenet\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\source\ogre\common;..\source\vdrift;..\OgreMain\include;..\OgreBites\include;..\OgreOverlay\include;..\OgreTerrain\include;..\OgrePaging\include;..\tinyxml;..\tinyxml2;..\vorbisfile\include;..\ogg\include;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\openal\include;..\openal\include\AL;..\libenet\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>

@@ -1650,7 +1650,16 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OgreStableHeaders.h</PrecompiledHeaderFile>
     </ClCompile>
-    <ClCompile Include="src\OgreTimer.cpp" />
+    <ClCompile Include="src\OgreTimer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
     <ClCompile Include="src\OgreUnifiedHighLevelGpuProgram.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">OgreStableHeaders.h</PrecompiledHeaderFile>
@@ -1763,9 +1772,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="common\OgreBuildSettings.h" />
-    <ClInclude Include="common\OgreComponents.h" />
-    <ClInclude Include="common\OgreExports.h" />
     <ClInclude Include="include\Ogre.h" />
     <ClInclude Include="include\OgreAlignedAllocator.h" />
     <ClInclude Include="include\OgreAnimable.h" />
@@ -1786,10 +1792,12 @@
     <ClInclude Include="include\OgreBitwise.h" />
     <ClInclude Include="include\OgreBlendMode.h" />
     <ClInclude Include="include\OgreBone.h" />
+    <ClInclude Include="include\OgreBuildSettings.h" />
     <ClInclude Include="include\OgreCamera.h" />
     <ClInclude Include="include\OgreCodec.h" />
     <ClInclude Include="include\OgreColourValue.h" />
     <ClInclude Include="include\OgreCommon.h" />
+    <ClInclude Include="include\OgreComponents.h" />
     <ClInclude Include="include\OgreCompositionPass.h" />
     <ClInclude Include="include\OgreCompositionTargetPass.h" />
     <ClInclude Include="include\OgreCompositionTechnique.h" />
@@ -1819,6 +1827,7 @@
     <ClInclude Include="include\OgreEdgeListBuilder.h" />
     <ClInclude Include="include\OgreEntity.h" />
     <ClInclude Include="include\OgreException.h" />
+    <ClInclude Include="include\OgreExports.h" />
     <ClInclude Include="include\OgreExternalTextureSource.h" />
     <ClInclude Include="include\OgreExternalTextureSourceManager.h" />
     <ClInclude Include="include\OgreFactoryObj.h" />
@@ -1926,6 +1935,7 @@
     <ClInclude Include="include\OgreRibbonTrail.h" />
     <ClInclude Include="include\OgreRoot.h" />
     <ClInclude Include="include\OgreRotationalSpline.h" />
+    <ClInclude Include="include\OgreRTShaderConfig.h" />
     <ClInclude Include="include\OgreSceneManager.h" />
     <ClInclude Include="include\OgreSceneManagerEnumerator.h" />
     <ClInclude Include="include\OgreSceneNode.h" />
@@ -2069,7 +2079,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;OGREMAIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;include\Threading;src\zip;common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;include\Threading;..\libzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -2086,7 +2096,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;OGREMAIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;include\Threading;src\zip;common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;include\Threading;..\libzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -2105,7 +2115,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;OGREMAIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;include\Threading;common;..\libzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;include\Threading;..\libzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -2126,7 +2136,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;OgreMain_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;include\Threading;src\zip;common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;include\Threading;..\libzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>

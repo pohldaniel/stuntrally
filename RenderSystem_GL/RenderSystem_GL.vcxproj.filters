@@ -302,5 +302,8 @@
     <ClInclude Include="include\OgreGLTextureManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\OgreGLSupportPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

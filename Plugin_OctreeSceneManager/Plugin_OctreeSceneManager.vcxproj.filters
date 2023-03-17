@@ -56,5 +56,8 @@
     <ClInclude Include="include\OgreOctreeSceneQuery.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\OgreOctreePrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

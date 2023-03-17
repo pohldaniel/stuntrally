@@ -66,6 +66,9 @@
     <ClInclude Include="include\OgreSPIRVShaderFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\OgreGL3PlusExports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\gl3w.c">

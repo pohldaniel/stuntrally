@@ -36,7 +36,6 @@
     <ClCompile Include="src\OgreVolumeTextureSource.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="common\OgreVolumePrerequisites.h" />
     <ClInclude Include="include\OgreVolumeCacheSource.h" />
     <ClInclude Include="include\OgreVolumeChunk.h" />
     <ClInclude Include="include\OgreVolumeChunkHandler.h" />
@@ -50,6 +49,7 @@
     <ClInclude Include="include\OgreVolumeMeshBuilder.h" />
     <ClInclude Include="include\OgreVolumeOctreeNode.h" />
     <ClInclude Include="include\OgreVolumeOctreeNodeSplitPolicy.h" />
+    <ClInclude Include="include\OgreVolumePrerequisites.h" />
     <ClInclude Include="include\OgreVolumeSimplexNoise.h" />
     <ClInclude Include="include\OgreVolumeSource.h" />
     <ClInclude Include="include\OgreVolumeTextureSource.h" />
@@ -129,7 +129,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;OgreVolume_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -146,7 +146,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;OgreVolume_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -165,7 +165,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;OgreVolume_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -186,7 +186,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;OgreVolume_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

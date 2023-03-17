@@ -391,7 +391,7 @@ void D3MFExporter::addFileInZip(const std::string& entry, const std::string& con
         throw DeadlyExportError("3MF-Export: Zip archive not valid, nullptr.");
     }
 
-    zip_entry_open(m_zipArchive, entry.c_str());
+    zip_entry_open(m_zipArchive, entry.c_str(), 0);
     zip_entry_write(m_zipArchive, content.c_str(), content.size());
     zip_entry_close(m_zipArchive);
 }

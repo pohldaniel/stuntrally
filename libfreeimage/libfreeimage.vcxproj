@@ -189,7 +189,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;LIBRAW_NODLL;OPJ_STATIC;FREEIMAGE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;OpenEXR;OpenEXR\Imath;OpenEXR\Iex;OpenEXR\Half;LibJXR;LibJXR\jxrgluelib;LibJXR\image\sys;..\libzlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\libopenexr;..\libopenexr\Imath;..\libopenexr\Iex;..\libopenexr\Half;..\libjxr;..\libjxr\jxrgluelib;..\libjxr\image\sys;..\libzlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -202,7 +202,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;LIBRAW_NODLL;OPJ_STATIC;FREEIMAGE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;OpenEXR;OpenEXR\Imath;OpenEXR\Iex;OpenEXR\Half;LibJXR;LibJXR\jxrgluelib;LibJXR\image\sys;..\libzlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\libopenexr;..\libopenexr\Imath;..\libopenexr\Iex;..\libopenexr\Half;..\libjxr;..\libjxr\jxrgluelib;..\libjxr\image\sys;..\libzlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -217,7 +217,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;LIBRAW_NODLL;OPJ_STATIC;FREEIMAGE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;OpenEXR;OpenEXR\Imath;OpenEXR\Iex;OpenEXR\Half;LibJXR;LibJXR\jxrgluelib;LibJXR\image\sys;..\libzlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\libopenexr;..\libopenexr\Imath;..\libopenexr\Iex;..\libopenexr\Half;..\libjxr;..\libjxr\jxrgluelib;..\libjxr\image\sys;..\libzlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -231,7 +231,7 @@
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;OPJ_STATIC;_CRT_SECURE_NO_DEPRECATE;FREEIMAGE_LIB;LIBRAW_NODLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;OpenEXR;OpenEXR\Imath;OpenEXR\Iex;OpenEXR\Half;LibJXR;LibJXR\jxrgluelib;LibJXR\image\sys;..\libzlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\libopenexr;..\libopenexr\Imath;..\libopenexr\Iex;..\libopenexr\Half;..\libjxr;..\libjxr\jxrgluelib;..\libjxr\image\sys;..\libzlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <InlineFunctionExpansion>Default</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>

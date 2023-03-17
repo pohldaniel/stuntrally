@@ -20,10 +20,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="common\OgreDotScenePluginExports.h">
+    <ClInclude Include="include\OgreDotSceneLoader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\OgreDotSceneLoader.h">
+    <ClInclude Include="include\OgreDotScenePluginExports.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

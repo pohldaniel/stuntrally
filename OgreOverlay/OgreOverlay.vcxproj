@@ -50,6 +50,7 @@
     <ClInclude Include="include\OgreOverlayElement.h" />
     <ClInclude Include="include\OgreOverlayElementFactory.h" />
     <ClInclude Include="include\OgreOverlayManager.h" />
+    <ClInclude Include="include\OgreOverlayPrerequisites.h" />
     <ClInclude Include="include\OgreOverlayProfileSessionListener.h" />
     <ClInclude Include="include\OgreOverlaySystem.h" />
     <ClInclude Include="include\OgrePanelOverlayElement.h" />
@@ -130,7 +131,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;HAVE_FREETYPE;OgreOverlay_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;..\libfreetype\include;..\libimgui;..\libimgui\misc\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\libfreetype\include;..\libimgui;..\libimgui\misc\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -147,7 +148,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;HAVE_FREETYPE;OgreOverlay_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;..\libfreetype\include;..\libimgui;..\libimgui\misc\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\libfreetype\include;..\libimgui;..\libimgui\misc\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -166,7 +167,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;HAVE_FREETYPE;OgreOverlay_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;..\libfreetype\include;..\libimgui;..\libimgui\misc\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\libfreetype\include;..\libimgui;..\libimgui\misc\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -187,7 +188,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;HAVE_FREETYPE;OgreOverlay_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>include;common;..\OgreMain\include;..\OgreMain\common;..\libfreetype\include;..\libimgui;..\libimgui\misc\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;..\OgreMain\include;..\libfreetype\include;..\libimgui;..\libimgui\misc\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

@@ -128,5 +128,8 @@
     <ClInclude Include="include\OgreTextureAnimatorAffector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\OgreParticleFXPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

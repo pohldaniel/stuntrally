@@ -92,7 +92,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;OgreRTShaderSystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;common;src;..\OgreMain\include;..\OgreMain\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;src;..\OgreMain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -109,7 +109,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;OgreRTShaderSystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;common;src;..\OgreMain\include;..\OgreMain\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;src;..\OgreMain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -128,7 +128,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;OgreRTShaderSystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;common;src;..\OgreMain\include;..\OgreMain\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;src;..\OgreMain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -149,7 +149,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;OgreRTShaderSystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>include;common;src;..\OgreMain\include;..\OgreMain\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include;src;..\OgreMain\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -552,6 +552,32 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OgreShaderPrecompiledHeaders.h</PrecompiledHeaderFile>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\OgreRTShaderExports.h" />
+    <ClInclude Include="include\OgreRTShaderSystem.h" />
+    <ClInclude Include="include\OgreShaderExGBuffer.h" />
+    <ClInclude Include="include\OgreShaderExHardwareSkinning.h" />
+    <ClInclude Include="include\OgreShaderExIntegratedPSSM3.h" />
+    <ClInclude Include="include\OgreShaderExLayeredBlending.h" />
+    <ClInclude Include="include\OgreShaderExTriplanarTexturing.h" />
+    <ClInclude Include="include\OgreShaderFFPRenderState.h" />
+    <ClInclude Include="include\OgreShaderFFPTexturing.h" />
+    <ClInclude Include="include\OgreShaderFFPTransform.h" />
+    <ClInclude Include="include\OgreShaderFunction.h" />
+    <ClInclude Include="include\OgreShaderFunctionAtom.h" />
+    <ClInclude Include="include\OgreShaderGenerator.h" />
+    <ClInclude Include="include\OgreShaderParameter.h" />
+    <ClInclude Include="include\OgreShaderPrerequisites.h" />
+    <ClInclude Include="include\OgreShaderProgram.h" />
+    <ClInclude Include="include\OgreShaderProgramManager.h" />
+    <ClInclude Include="include\OgreShaderProgramProcessor.h" />
+    <ClInclude Include="include\OgreShaderProgramSet.h" />
+    <ClInclude Include="include\OgreShaderProgramWriter.h" />
+    <ClInclude Include="include\OgreShaderProgramWriterManager.h" />
+    <ClInclude Include="include\OgreShaderRenderState.h" />
+    <ClInclude Include="include\OgreShaderScriptTranslator.h" />
+    <ClInclude Include="include\OgreShaderSubRenderState.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,1 +1,0 @@
-Goto users/name/Documents delete "OGRE Sample Browser" folder

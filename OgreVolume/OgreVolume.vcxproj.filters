@@ -110,7 +110,7 @@
     <ClInclude Include="include\OgreVolumeTextureSource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="common\OgreVolumePrerequisites.h">
+    <ClInclude Include="include\OgreVolumePrerequisites.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

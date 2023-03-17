@@ -641,14 +641,14 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;SR_EDITOR;MYGUI_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\source\ogre\common;..\source\network;..\pagedGeom;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreTerrain\include;..\OgrePaging\include;..\vorbisfile\include;..\ogg\include;..\tinyxml;..\tinyxml2;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\source\ogre\common;..\source\network;..\pagedGeom;..\OgreMain\include;..\OgreBites\include;..\OgreOverlay\include;..\OgreTerrain\include;..\OgrePaging\include;..\vorbisfile\include;..\ogg\include;..\tinyxml;..\tinyxml2;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\libboost\x86;..\libd\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>tinyxml.lib;tinyxml2.lib;btOgre.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;oics.lib;pagedGeom.lib;sdl4ogre.lib;shiny.lib;shinyOgrePlatform.lib;libbullet.lib;libbulletfileloader.lib;libbulletworldimporter.lib;libmygui.lib;libmyguiogreplatform.lib;libfreetype.lib;sdl2.lib;OgreMain.lib;OgreOverlay.lib;OgreTerrain.lib;OgreBites.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>tinyxml.lib;tinyxml2.lib;btOgre.lib;oics.lib;pagedGeom.lib;sdl4ogre.lib;shiny.lib;shinyOgrePlatform.lib;libbullet.lib;libbulletfileloader.lib;libbulletworldimporter.lib;libmygui.lib;libmyguiogreplatform.lib;libfreetype.lib;sdl2.lib;OgreMain.lib;OgreOverlay.lib;OgreTerrain.lib;OgreBites.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -657,14 +657,14 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;NOMINMAX;SR_EDITOR;MYGUI_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\source\ogre\common;..\source\network;..\pagedGeom;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreTerrain\include;..\OgrePaging\include;..\vorbisfile\include;..\ogg\include;..\tinyxml;..\tinyxml2;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\source\ogre\common;..\source\network;..\pagedGeom;..\OgreMain\include;..\OgreBites\include;..\OgreOverlay\include;..\OgreTerrain\include;..\OgrePaging\include;..\vorbisfile\include;..\ogg\include;..\tinyxml;..\tinyxml2;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\libboost\x64;..\libd\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>tinyxml.lib;tinyxml2.lib;btOgre.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;oics.lib;pagedGeom.lib;sdl4ogre.lib;shiny.lib;shinyOgrePlatform.lib;libbullet.lib;libbulletfileloader.lib;libbulletworldimporter.lib;libmygui.lib;libmyguiogreplatform.lib;libfreetype.lib;sdl2.lib;OgreMain.lib;OgreOverlay.lib;OgreTerrain.lib;OgreBites.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>tinyxml.lib;tinyxml2.lib;btOgre.lib;oics.lib;pagedGeom.lib;sdl4ogre.lib;shiny.lib;shinyOgrePlatform.lib;libbullet.lib;libbulletfileloader.lib;libbulletworldimporter.lib;libmygui.lib;libmyguiogreplatform.lib;libfreetype.lib;sdl2.lib;OgreMain.lib;OgreOverlay.lib;OgreTerrain.lib;OgreBites.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -675,7 +675,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;SR_EDITOR;MYGUI_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\source\ogre\common;..\source\network;..\pagedGeom;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreTerrain\include;..\OgrePaging\include;..\vorbisfile\include;..\ogg\include;..\tinyxml;..\tinyxml2;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\source\ogre\common;..\source\network;..\pagedGeom;..\OgreMain\include;..\OgreBites\include;..\OgreOverlay\include;..\OgreTerrain\include;..\OgrePaging\include;..\vorbisfile\include;..\ogg\include;..\tinyxml;..\tinyxml2;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -684,7 +684,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\libboost\x86;..\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>tinyxml.lib;tinyxml2.lib;btOgre.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;oics.lib;pagedGeom.lib;sdl4ogre.lib;shiny.lib;shinyOgrePlatform.lib;libbullet.lib;libbulletfileloader.lib;libbulletworldimporter.lib;libmygui.lib;libmyguiogreplatform.lib;libfreetype.lib;sdl2.lib;OgreMain.lib;OgreOverlay.lib;OgreTerrain.lib;OgreBites.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>tinyxml.lib;tinyxml2.lib;btOgre.lib;oics.lib;pagedGeom.lib;sdl4ogre.lib;shiny.lib;shinyOgrePlatform.lib;libbullet.lib;libbulletfileloader.lib;libbulletworldimporter.lib;libmygui.lib;libmyguiogreplatform.lib;libfreetype.lib;sdl2.lib;OgreMain.lib;OgreOverlay.lib;OgreTerrain.lib;OgreBites.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -695,7 +695,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;NOMINMAX;SR_EDITOR;MYGUI_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\source\ogre;..\source\ogre\common;..\source\network;..\pagedGeom;..\OgreMain\include;..\OgreMain\common;..\OgreBites\include;..\OgreBites\common;..\OgreOverlay\include;..\OgreOverlay\common;..\OgreTerrain\include;..\OgrePaging\include;..\vorbisfile\include;..\ogg\include;..\tinyxml;..\tinyxml2;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\source\ogre;..\source\ogre\common;..\source\network;..\pagedGeom;..\OgreMain\include;..\OgreBites\include;..\OgreOverlay\include;..\OgreTerrain\include;..\OgrePaging\include;..\vorbisfile\include;..\ogg\include;..\tinyxml;..\tinyxml2;..\libmygui\include;..\libmyguiogreplatform\include;..\libbullet;..\libbulletfileloader;..\libbulletworldimporter;..\SDL2\include;..\libboost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4661;4251;4275</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -704,7 +704,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\libboost\x64;..\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>tinyxml.lib;tinyxml2.lib;btOgre.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;oics.lib;pagedGeom.lib;sdl4ogre.lib;shiny.lib;shinyOgrePlatform.lib;libbullet.lib;libbulletfileloader.lib;libbulletworldimporter.lib;libmygui.lib;libmyguiogreplatform.lib;libfreetype.lib;sdl2.lib;OgreMain.lib;OgreOverlay.lib;OgreTerrain.lib;OgreBites.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>tinyxml.lib;tinyxml2.lib;btOgre.lib;oics.lib;pagedGeom.lib;sdl4ogre.lib;shiny.lib;shinyOgrePlatform.lib;libbullet.lib;libbulletfileloader.lib;libbulletworldimporter.lib;libmygui.lib;libmyguiogreplatform.lib;libfreetype.lib;sdl2.lib;OgreMain.lib;OgreOverlay.lib;OgreTerrain.lib;OgreBites.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

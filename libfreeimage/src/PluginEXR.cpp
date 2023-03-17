@@ -28,16 +28,16 @@
 #pragma warning (disable : 4800) // ImfVersion.h - 'const int' : forcing value to bool 'true' or 'false' (performance warning)
 #endif 
 
-#include "../OpenEXR/IlmImf/ImfIO.h"
-#include "../OpenEXR/Iex/Iex.h"
-#include "../OpenEXR/IlmImf/ImfOutputFile.h"
-#include "../OpenEXR/IlmImf/ImfInputFile.h"
-#include "../OpenEXR/IlmImf/ImfRgbaFile.h"
-#include "../OpenEXR/IlmImf/ImfChannelList.h"
-#include "../OpenEXR/IlmImf/ImfRgba.h"
-#include "../OpenEXR/IlmImf/ImfArray.h"
-#include "../OpenEXR/IlmImf/ImfPreviewImage.h"
-#include "../OpenEXR/Half/half.h"
+#include "../libopenexr/IlmImf/ImfIO.h"
+#include "../libopenexr/Iex/Iex.h"
+#include "../libopenexr/IlmImf/ImfOutputFile.h"
+#include "../libopenexr/IlmImf/ImfInputFile.h"
+#include "../libopenexr/IlmImf/ImfRgbaFile.h"
+#include "../libopenexr/IlmImf/ImfChannelList.h"
+#include "../libopenexr/IlmImf/ImfRgba.h"
+#include "../libopenexr/IlmImf/ImfArray.h"
+#include "../libopenexr/IlmImf/ImfPreviewImage.h"
+#include "../libopenexr/Half/half.h"
 
 
 // ==========================================================

@@ -152,12 +152,6 @@
     <ClInclude Include="include\OgreGLES2TextureManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="common\OgreGLES2Config.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="common\OgreGLES2Exports.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="src\GLSLES\include\OgreGLSLESCgProgram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -180,6 +174,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\GLSLES\include\OgreGLSLESProgramPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OgreGLES2Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OgreGLES2Exports.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
