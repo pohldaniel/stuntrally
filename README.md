@@ -1,6 +1,6 @@
-# Stuntrally 2.7.0
+# Stuntrally 2.7.0 VDrift 2023-03-05
 
-This repository contains a Visual Studio 2015 setup of https://github.com/stuntrally/stuntrally and it's dependencies. After compiling keep in mind the tools folder for setting up the Release Folder. The build process is just tested with Release x64 configuration. It should be clear that the Copyright of Stuntrally and of it's dependencies are not in my hand.
+This repository contains a Visual Studio 2015 setup of https://github.com/stuntrally/stuntrally, https://github.com/VDrift/vdrift and thre dependencies. After compiling keep in mind the tools folder for setting up the Release Folder. The build process is just tested with Release x64 configuration. It should be clear that the Copyright of Stuntrally, VDrift and of it's dependencies are not in my hand.
 
 My intention for this repository is to get a deeper understanding of game programing.
 
