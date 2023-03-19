@@ -1,0 +1,60 @@
+﻿  bindtextdom.c
+src\bindtextdom.c(161): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+src\bindtextdom.c(199): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+src\bindtextdom.c(257): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+src\bindtextdom.c(288): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+src\bindtextdom.c(362): warning C4090: '=': different 'const' qualifiers
+src\bindtextdom.c(355): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _access. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(439): note: see declaration of 'access'
+src\bindtextdom.c(359): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+  dcgettext.c
+  dcigettext.c
+  dcngettext.c
+  dgettext.c
+  dngettext.c
+  explodename.c
+  finddomain.c
+src\finddomain.c(121): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+  gettext.c
+  intl-compat.c
+  l10nflist.c
+  langprefs.c
+  loadmsgcat.c
+src\loadmsgcat.c(940): warning C4013: 'open' undefined; assuming extern returning int
+src\loadmsgcat.c(955): warning C4013: 'close' undefined; assuming extern returning int
+src\loadmsgcat.c(988): warning C4013: 'read' undefined; assuming extern returning int
+  localcharset.c
+src\localcharset.c(73): warning C4005: 'relocate': macro redefinition
+  src\localcharset.c(73): note: command-line arguments:  see previous definition of 'relocate'
+  localealias.c
+src\localealias.c(68): warning C4005: 'relocate': macro redefinition
+  src\localealias.c(68): note: command-line arguments:  see previous definition of 'relocate'
+  localename.c
+  log.c
+  ngettext.c
+  osdep.c
+  plural-exp.c
+  Compiling...
+  plural.c
+  printf.c
+c:\widelands\libintl\src\vasnprintf.c(248): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+c:\widelands\libintl\src\vasnprintf.c(251): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+c:\widelands\libintl\src\vasnprintf.c(765): warning C4018: '<': signed/unsigned mismatch
+c:\widelands\libintl\src\vasnprintf.c(823): warning C4018: '>=': signed/unsigned mismatch
+c:\widelands\libintl\src\vasnprintf.c(248): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+c:\widelands\libintl\src\vasnprintf.c(251): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+c:\widelands\libintl\src\vasnprintf.c(765): warning C4018: '<': signed/unsigned mismatch
+c:\widelands\libintl\src\vasnprintf.c(823): warning C4018: '>=': signed/unsigned mismatch
+  relocatable.c
+c:\widelands\libintl\src\relocatable.h(68): warning C4005: 'relocate': macro redefinition
+  c:\widelands\libintl\src\relocatable.h(68): note: command-line arguments:  see previous definition of 'relocate'
+  textdomain.c
+src\textdomain.c(110): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+  libintl.vcxproj -> C:\Widelands\libintl\..\lib\x86\libintl.lib

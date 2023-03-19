@@ -3,3 +3,5 @@
 delete users/name/Documents/OGRE Sample Browser
 
 delete users/name/AppData/Roaming/stuntrally
+
+delete users/name/AppData/Roaming/VDrift

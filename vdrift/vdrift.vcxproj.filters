@@ -1,0 +1,1041 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ai">
+      <UniqueIdentifier>{ec9962d7-bb0c-4ec7-953d-71689c847dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cfg">
+      <UniqueIdentifier>{03655d64-6694-43f5-aefe-69b0c3e1e181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\content">
+      <UniqueIdentifier>{eaf26b46-fce9-4fdb-8594-309a03274ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{d0af1e82-a1dd-4c86-b598-87f6b7f8fcfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{44f2eac7-d577-4989-9ed2-f32c668dbc35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physics">
+      <UniqueIdentifier>{2f5350e8-4055-4e62-9821-43b72fc8bb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sound">
+      <UniqueIdentifier>{fd6d3d6e-096e-4869-9ae9-e46d92cd1e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics\gl3v">
+      <UniqueIdentifier>{42e2bb79-8425-4aed-9882-b20f48bf1726}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ai\ai.cpp">
+      <Filter>Source Files\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ai\ai_car_experimental.cpp">
+      <Filter>Source Files\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ai\ai_car_standard.cpp">
+      <Filter>Source Files\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cfg\config.cpp">
+      <Filter>Source Files\cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cfg\ptree.cpp">
+      <Filter>Source Files\cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cfg\ptree_inf.cpp">
+      <Filter>Source Files\cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cfg\ptree_ini.cpp">
+      <Filter>Source Files\cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\content\configfactory.cpp">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
+    <ClCompile Include="src\content\contentmanager.cpp">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
+    <ClCompile Include="src\content\modelfactory.cpp">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
+    <ClCompile Include="src\content\soundfactory.cpp">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
+    <ClCompile Include="src\content\texturefactory.cpp">
+      <Filter>Source Files\content</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\gl3v\glenums.cpp">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\gl3v\glwrapper.cpp">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\gl3v\renderer.cpp">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\gl3v\renderpass.cpp">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\font.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\gui.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guicontrol.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guicontrollist.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guiimage.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guiimagelist.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guilabel.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guilabellist.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guilanguage.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guilinearslider.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guioption.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guipage.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guiradialslider.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guislider.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guiwidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guiwidgetlist.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\text_draw.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\cardynamics.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\carengine.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\carsuspension.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\cartire1.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\cartire2.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\cartire3.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\dynamicsworld.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\fracturebody.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound\sound.cpp">
+      <Filter>Source Files\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound\soundbuffer.cpp">
+      <Filter>Source Files\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound\soundfilter.cpp">
+      <Filter>Source Files\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\bcndecode.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\dds.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\drawable.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\fbobject.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\fbtexture.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\glcore.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\glutil.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\graphics_config.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\graphics_config_condition.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\graphics_gl2.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\graphics_gl3v.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\mesh_gen.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\model.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\model_joe03.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\model_obj.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\png.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\render_input_postprocess.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\render_input_scene.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\render_output.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\sky.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\texture.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\vertexarray.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\vertexbuffer.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\vertexformat.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aabb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aabbtree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\autoupdate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bezier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera_chase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera_free.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera_mount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera_orbit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\carcontrolmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cargraphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\carsound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\containeralgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crashdetection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\downloadable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dynamicsdraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eventsystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fastmath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\forcefeedback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\frustumcull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joepack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joeserialize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\k1999.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\keyed_container.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\linearinterp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loadcamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loadcollisionshape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loaddrawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mathplane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mathvector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\matrix4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\optional.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parallel_task.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\particle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pathmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\performance_testing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\radix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\replay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reseatable_reference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roadpatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roadstrip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skidmarks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sprite2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\suspensionbumpdetection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\svn_sourceforge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\toggle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\track.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trackloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trackmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\updatemanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ai\ai.h">
+      <Filter>Source Files\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ai\ai_car.h">
+      <Filter>Source Files\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ai\ai_car_experimental.h">
+      <Filter>Source Files\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ai\ai_car_standard.h">
+      <Filter>Source Files\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ai\ai_factory.h">
+      <Filter>Source Files\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cfg\config.h">
+      <Filter>Source Files\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cfg\ptree.h">
+      <Filter>Source Files\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\content\configfactory.h">
+      <Filter>Source Files\content</Filter>
+    </ClInclude>
+    <ClInclude Include="src\content\contentfactory.h">
+      <Filter>Source Files\content</Filter>
+    </ClInclude>
+    <ClInclude Include="src\content\contentmanager.h">
+      <Filter>Source Files\content</Filter>
+    </ClInclude>
+    <ClInclude Include="src\content\modelfactory.h">
+      <Filter>Source Files\content</Filter>
+    </ClInclude>
+    <ClInclude Include="src\content\soundfactory.h">
+      <Filter>Source Files\content</Filter>
+    </ClInclude>
+    <ClInclude Include="src\content\texturefactory.h">
+      <Filter>Source Files\content</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\glenums.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\glwrapper.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\rendercachevector.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\renderdimensions.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\renderer.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\rendermodel.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\rendermodelentry.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\rendermodelext.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\renderpass.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\renderpassinfo.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\rendersampler.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\rendershader.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\renderstate.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\renderstatusverbosity.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\rendertexture.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\rendertextureentry.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\renderuniform.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\renderuniformentry.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\renderuniformvector.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\gl3v\stringidmap.h">
+      <Filter>Source Files\graphics\gl3v</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\font.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\gui.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guicontrol.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guicontrollist.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guiimage.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guiimagelist.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guilabel.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guilabellist.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guilanguage.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guilinearslider.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guilist.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guioption.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guipage.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guiradialslider.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guislider.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guiwidget.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guiwidgetlist.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\text_draw.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\aerodevice.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\carbrake.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\carclutch.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\cardifferential.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\cardynamics.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\carengine.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\carfueltank.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\carinput.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\carsuspension.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\cartire.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\cartire1.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\cartire2.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\cartire3.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\cartirebase.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\cartransmission.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\carwheel.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\carwheelposition.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\collision_contact.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\driveline.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\driveshaft.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\dynamicsworld.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\fracturebody.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\motionstate.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\tracksurface.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\wheelconstraint.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound\sound.h">
+      <Filter>Source Files\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound\soundbuffer.h">
+      <Filter>Source Files\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound\soundfilter.h">
+      <Filter>Source Files\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound\soundinfo.h">
+      <Filter>Source Files\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\aabb_tree_adapter.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\bcndecode.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\dds.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\drawable.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\drawable_container.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\fbobject.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\fbtexture.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\glcore.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\glutil.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\graphics.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\graphics_camera.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\graphics_config.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\graphics_config_condition.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\graphics_gl2.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\graphics_gl3v.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\graphicsstate.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\mesh_gen.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\model.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\model_joe03.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\model_obj.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\png.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\render_input.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\render_input_postprocess.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\render_input_scene.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\render_output.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\rendermodelext_drawable.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\scenenode.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shader.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\sky.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\texture.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\texture_interface.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\textureinfo.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\uniforms.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\vertexarray.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\vertexattrib.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\vertexbuffer.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\vertexformat.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aabb.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\aabbtree.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\autoupdate.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bezier.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bucketed_hashmap.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera_chase.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera_free.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera_mount.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera_orbit.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\carcontrolmap.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cargraphics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\carinfo.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\carsound.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cartelemetry.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\conecull.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\containeralgorithm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coordinatesystem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crashdetection.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\defer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\definitions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\delegate.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\downloadable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dynamicsdraw.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\endian_utility.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enginesoundinfo.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eventsystem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fastmath.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\forcefeedback.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\frustum.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\frustumcull.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_downloader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameinput.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hsvtorgb.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\http.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joepack.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joeserialize.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\k1999.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\keyed_container.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\linearinterp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\loadcamera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\loadcollisionshape.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\loaddrawable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logging.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\macros.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mathplane.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mathvector.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\matrix3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\matrix4.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minmax.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\numprocessors.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\optional.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pairsort.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parallel_task.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\particle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pathmanager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\performance_testing.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quaternion.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quickmp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quickprof.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\radix.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\random.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\replay.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reseatable_reference.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roadpatch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roadstrip.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\signalprocessing.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\signalslot.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\skidmarks.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spline.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sprite2d.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\suspensionbumpdetection.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\svn_sourceforge.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tobullet.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\toggle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tokenize.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\track.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trackloader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trackmap.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\transform.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tripplebuffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unittest.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\updatemanager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

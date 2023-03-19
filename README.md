@@ -28,7 +28,7 @@ and depending on the choosen "VS Native Command Prompt" the build will be x64 or
 &emsp;b2 install variant=debug runtime-link=shared address-model=32 --prefix=C:\stuntrally\libboost (Md build) <br/>
 &emsp;b2 install variant=debug runtime-link=static address-model=32 --prefix=C:\stuntrally\libboost (Mt build) <br/>
   
-It will be necessary to rename the libboost/lib folder to libboost/x64 or libboost/x84. Maybe reanaming of the .lib is also necessary, it depends on the used Visual Studio Version. With Visual Studio 2015 the needed libs looks like this.
+It will be necessary to rename the libboost/lib folder to libboost/lib/x64 or libboost/lib/x84. Maybe reanaming of the .lib is also necessary, it depends on the used Visual Studio Version. With Visual Studio 2015 the needed libs looks like this.
 
 &emsp;libboost_chrono-vc140-mt-x64-1_81.lib<br/>
 &emsp;libboost_filesystem-vc140-mt-x64-1_81.lib<br/>

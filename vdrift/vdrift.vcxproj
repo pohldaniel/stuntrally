@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DEF4B012-D90A-44E2-887F-30768EF5EF08}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>vdrift</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;__PRETTY_FUNCTION__=__FUNCSIG__;LIBINTL_STATIC;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;src;..\SDL2\include;..\libbullet;..\libzlib\include;..\vorbis\include;..\ogg\include;..\libintl\include;..\libcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\libcurl\lib\x86;..\libd\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OpenGL32.lib;SDL2.lib;SDL2main.lib;libbullet.lib;libzlib.lib;libintl.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;libcurl_a.lib;Ws2_32.lib;wldap32.lib;crypt32.lib;Normaliz.lib;Userenv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;__PRETTY_FUNCTION__=__FUNCSIG__;LIBINTL_STATIC;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;src;..\SDL2\include;..\libbullet;..\libzlib\include;..\vorbis\include;..\ogg\include;..\libintl\include;..\libcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\libcurl\lib\x64;..\libd\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OpenGL32.lib;SDL2.lib;SDL2main.lib;libbullet.lib;libzlib.lib;libintl.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;libcurl_a.lib;Ws2_32.lib;wldap32.lib;crypt32.lib;Normaliz.lib;Userenv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;__PRETTY_FUNCTION__=__FUNCSIG__;LIBINTL_STATIC;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;src;..\SDL2\include;..\libbullet;..\libzlib\include;..\vorbis\include;..\ogg\include;..\libintl\include;..\libcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\libcurl\lib\x86;..\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OpenGL32.lib;SDL2.lib;SDL2main.lib;libbullet.lib;libzlib.lib;libintl.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;libcurl_a.lib;Ws2_32.lib;wldap32.lib;crypt32.lib;Normaliz.lib;Userenv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;__PRETTY_FUNCTION__=__FUNCSIG__;LIBINTL_STATIC;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;src;..\SDL2\include;..\libbullet;..\libzlib\include;..\vorbis\include;..\ogg\include;..\libintl\include;..\libcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\libcurl\lib\x64;..\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OpenGL32.lib;SDL2.lib;SDL2main.lib;libbullet.lib;libzlib.lib;libintl.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;libcurl_a.lib;Ws2_32.lib;wldap32.lib;crypt32.lib;Normaliz.lib;Userenv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\aabb.cpp" />
+    <ClCompile Include="src\aabbtree.cpp" />
+    <ClCompile Include="src\ai\ai.cpp" />
+    <ClCompile Include="src\ai\ai_car_experimental.cpp" />
+    <ClCompile Include="src\ai\ai_car_standard.cpp" />
+    <ClCompile Include="src\autoupdate.cpp" />
+    <ClCompile Include="src\bezier.cpp" />
+    <ClCompile Include="src\camera_chase.cpp" />
+    <ClCompile Include="src\camera_free.cpp" />
+    <ClCompile Include="src\camera_mount.cpp" />
+    <ClCompile Include="src\camera_orbit.cpp" />
+    <ClCompile Include="src\carcontrolmap.cpp" />
+    <ClCompile Include="src\cargraphics.cpp" />
+    <ClCompile Include="src\carsound.cpp" />
+    <ClCompile Include="src\cfg\config.cpp" />
+    <ClCompile Include="src\cfg\ptree.cpp" />
+    <ClCompile Include="src\cfg\ptree_inf.cpp" />
+    <ClCompile Include="src\cfg\ptree_ini.cpp" />
+    <ClCompile Include="src\containeralgorithm.cpp" />
+    <ClCompile Include="src\content\configfactory.cpp" />
+    <ClCompile Include="src\content\contentmanager.cpp" />
+    <ClCompile Include="src\content\modelfactory.cpp" />
+    <ClCompile Include="src\content\soundfactory.cpp" />
+    <ClCompile Include="src\content\texturefactory.cpp" />
+    <ClCompile Include="src\crashdetection.cpp" />
+    <ClCompile Include="src\downloadable.cpp" />
+    <ClCompile Include="src\dynamicsdraw.cpp" />
+    <ClCompile Include="src\eventsystem.cpp" />
+    <ClCompile Include="src\fastmath.cpp" />
+    <ClCompile Include="src\forcefeedback.cpp" />
+    <ClCompile Include="src\frustumcull.cpp" />
+    <ClCompile Include="src\game.cpp" />
+    <ClCompile Include="src\graphics\bcndecode.cpp" />
+    <ClCompile Include="src\graphics\dds.cpp" />
+    <ClCompile Include="src\graphics\drawable.cpp" />
+    <ClCompile Include="src\graphics\fbobject.cpp" />
+    <ClCompile Include="src\graphics\fbtexture.cpp" />
+    <ClCompile Include="src\graphics\gl3v\glenums.cpp" />
+    <ClCompile Include="src\graphics\gl3v\glwrapper.cpp" />
+    <ClCompile Include="src\graphics\gl3v\renderer.cpp" />
+    <ClCompile Include="src\graphics\gl3v\renderpass.cpp" />
+    <ClCompile Include="src\graphics\glcore.cpp" />
+    <ClCompile Include="src\graphics\glutil.cpp" />
+    <ClCompile Include="src\graphics\graphics_config.cpp" />
+    <ClCompile Include="src\graphics\graphics_config_condition.cpp" />
+    <ClCompile Include="src\graphics\graphics_gl2.cpp" />
+    <ClCompile Include="src\graphics\graphics_gl3v.cpp" />
+    <ClCompile Include="src\graphics\mesh_gen.cpp" />
+    <ClCompile Include="src\graphics\model.cpp" />
+    <ClCompile Include="src\graphics\model_joe03.cpp" />
+    <ClCompile Include="src\graphics\model_obj.cpp" />
+    <ClCompile Include="src\graphics\png.cpp" />
+    <ClCompile Include="src\graphics\render_input_postprocess.cpp" />
+    <ClCompile Include="src\graphics\render_input_scene.cpp" />
+    <ClCompile Include="src\graphics\render_output.cpp" />
+    <ClCompile Include="src\graphics\shader.cpp" />
+    <ClCompile Include="src\graphics\sky.cpp" />
+    <ClCompile Include="src\graphics\texture.cpp" />
+    <ClCompile Include="src\graphics\vertexarray.cpp" />
+    <ClCompile Include="src\graphics\vertexbuffer.cpp" />
+    <ClCompile Include="src\graphics\vertexformat.cpp" />
+    <ClCompile Include="src\gui\font.cpp" />
+    <ClCompile Include="src\gui\gui.cpp" />
+    <ClCompile Include="src\gui\guicontrol.cpp" />
+    <ClCompile Include="src\gui\guicontrollist.cpp" />
+    <ClCompile Include="src\gui\guiimage.cpp" />
+    <ClCompile Include="src\gui\guiimagelist.cpp" />
+    <ClCompile Include="src\gui\guilabel.cpp" />
+    <ClCompile Include="src\gui\guilabellist.cpp" />
+    <ClCompile Include="src\gui\guilanguage.cpp" />
+    <ClCompile Include="src\gui\guilinearslider.cpp" />
+    <ClCompile Include="src\gui\guioption.cpp" />
+    <ClCompile Include="src\gui\guipage.cpp" />
+    <ClCompile Include="src\gui\guiradialslider.cpp" />
+    <ClCompile Include="src\gui\guislider.cpp" />
+    <ClCompile Include="src\gui\guiwidget.cpp" />
+    <ClCompile Include="src\gui\guiwidgetlist.cpp" />
+    <ClCompile Include="src\gui\text_draw.cpp" />
+    <ClCompile Include="src\http.cpp" />
+    <ClCompile Include="src\joepack.cpp" />
+    <ClCompile Include="src\joeserialize.cpp" />
+    <ClCompile Include="src\k1999.cpp" />
+    <ClCompile Include="src\keyed_container.cpp" />
+    <ClCompile Include="src\linearinterp.cpp" />
+    <ClCompile Include="src\loadcamera.cpp" />
+    <ClCompile Include="src\loadcollisionshape.cpp" />
+    <ClCompile Include="src\loaddrawable.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\mathplane.cpp" />
+    <ClCompile Include="src\mathvector.cpp" />
+    <ClCompile Include="src\matrix4.cpp" />
+    <ClCompile Include="src\optional.cpp" />
+    <ClCompile Include="src\parallel_task.cpp" />
+    <ClCompile Include="src\particle.cpp" />
+    <ClCompile Include="src\pathmanager.cpp" />
+    <ClCompile Include="src\performance_testing.cpp" />
+    <ClCompile Include="src\physics\cardynamics.cpp" />
+    <ClCompile Include="src\physics\carengine.cpp" />
+    <ClCompile Include="src\physics\carsuspension.cpp" />
+    <ClCompile Include="src\physics\cartire1.cpp" />
+    <ClCompile Include="src\physics\cartire2.cpp" />
+    <ClCompile Include="src\physics\cartire3.cpp" />
+    <ClCompile Include="src\physics\dynamicsworld.cpp" />
+    <ClCompile Include="src\physics\fracturebody.cpp" />
+    <ClCompile Include="src\quaternion.cpp" />
+    <ClCompile Include="src\radix.cpp" />
+    <ClCompile Include="src\random.cpp" />
+    <ClCompile Include="src\replay.cpp" />
+    <ClCompile Include="src\reseatable_reference.cpp" />
+    <ClCompile Include="src\roadpatch.cpp" />
+    <ClCompile Include="src\roadstrip.cpp" />
+    <ClCompile Include="src\settings.cpp" />
+    <ClCompile Include="src\skidmarks.cpp" />
+    <ClCompile Include="src\sound\sound.cpp" />
+    <ClCompile Include="src\sound\soundbuffer.cpp" />
+    <ClCompile Include="src\sound\soundfilter.cpp" />
+    <ClCompile Include="src\sprite2d.cpp" />
+    <ClCompile Include="src\suspensionbumpdetection.cpp" />
+    <ClCompile Include="src\svn_sourceforge.cpp" />
+    <ClCompile Include="src\timer.cpp" />
+    <ClCompile Include="src\toggle.cpp" />
+    <ClCompile Include="src\track.cpp" />
+    <ClCompile Include="src\trackloader.cpp" />
+    <ClCompile Include="src\trackmap.cpp" />
+    <ClCompile Include="src\updatemanager.cpp" />
+    <ClCompile Include="src\utils.cpp" />
+    <ClCompile Include="src\window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\aabb.h" />
+    <ClInclude Include="src\aabbtree.h" />
+    <ClInclude Include="src\ai\ai.h" />
+    <ClInclude Include="src\ai\ai_car.h" />
+    <ClInclude Include="src\ai\ai_car_experimental.h" />
+    <ClInclude Include="src\ai\ai_car_standard.h" />
+    <ClInclude Include="src\ai\ai_factory.h" />
+    <ClInclude Include="src\autoupdate.h" />
+    <ClInclude Include="src\bezier.h" />
+    <ClInclude Include="src\bucketed_hashmap.h" />
+    <ClInclude Include="src\camera.h" />
+    <ClInclude Include="src\camera_chase.h" />
+    <ClInclude Include="src\camera_free.h" />
+    <ClInclude Include="src\camera_mount.h" />
+    <ClInclude Include="src\camera_orbit.h" />
+    <ClInclude Include="src\carcontrolmap.h" />
+    <ClInclude Include="src\cargraphics.h" />
+    <ClInclude Include="src\carinfo.h" />
+    <ClInclude Include="src\carsound.h" />
+    <ClInclude Include="src\cartelemetry.h" />
+    <ClInclude Include="src\cfg\config.h" />
+    <ClInclude Include="src\cfg\ptree.h" />
+    <ClInclude Include="src\conecull.h" />
+    <ClInclude Include="src\containeralgorithm.h" />
+    <ClInclude Include="src\content\configfactory.h" />
+    <ClInclude Include="src\content\contentfactory.h" />
+    <ClInclude Include="src\content\contentmanager.h" />
+    <ClInclude Include="src\content\modelfactory.h" />
+    <ClInclude Include="src\content\soundfactory.h" />
+    <ClInclude Include="src\content\texturefactory.h" />
+    <ClInclude Include="src\coordinatesystem.h" />
+    <ClInclude Include="src\crashdetection.h" />
+    <ClInclude Include="src\defer.h" />
+    <ClInclude Include="src\definitions.h" />
+    <ClInclude Include="src\delegate.h" />
+    <ClInclude Include="src\downloadable.h" />
+    <ClInclude Include="src\dynamicsdraw.h" />
+    <ClInclude Include="src\endian_utility.h" />
+    <ClInclude Include="src\enginesoundinfo.h" />
+    <ClInclude Include="src\eventsystem.h" />
+    <ClInclude Include="src\fastmath.h" />
+    <ClInclude Include="src\forcefeedback.h" />
+    <ClInclude Include="src\frustum.h" />
+    <ClInclude Include="src\frustumcull.h" />
+    <ClInclude Include="src\game.h" />
+    <ClInclude Include="src\gameinput.h" />
+    <ClInclude Include="src\game_downloader.h" />
+    <ClInclude Include="src\graphics\aabb_tree_adapter.h" />
+    <ClInclude Include="src\graphics\bcndecode.h" />
+    <ClInclude Include="src\graphics\dds.h" />
+    <ClInclude Include="src\graphics\drawable.h" />
+    <ClInclude Include="src\graphics\drawable_container.h" />
+    <ClInclude Include="src\graphics\fbobject.h" />
+    <ClInclude Include="src\graphics\fbtexture.h" />
+    <ClInclude Include="src\graphics\gl3v\glenums.h" />
+    <ClInclude Include="src\graphics\gl3v\glwrapper.h" />
+    <ClInclude Include="src\graphics\gl3v\rendercachevector.h" />
+    <ClInclude Include="src\graphics\gl3v\renderdimensions.h" />
+    <ClInclude Include="src\graphics\gl3v\renderer.h" />
+    <ClInclude Include="src\graphics\gl3v\rendermodel.h" />
+    <ClInclude Include="src\graphics\gl3v\rendermodelentry.h" />
+    <ClInclude Include="src\graphics\gl3v\rendermodelext.h" />
+    <ClInclude Include="src\graphics\gl3v\renderpass.h" />
+    <ClInclude Include="src\graphics\gl3v\renderpassinfo.h" />
+    <ClInclude Include="src\graphics\gl3v\rendersampler.h" />
+    <ClInclude Include="src\graphics\gl3v\rendershader.h" />
+    <ClInclude Include="src\graphics\gl3v\renderstate.h" />
+    <ClInclude Include="src\graphics\gl3v\renderstatusverbosity.h" />
+    <ClInclude Include="src\graphics\gl3v\rendertexture.h" />
+    <ClInclude Include="src\graphics\gl3v\rendertextureentry.h" />
+    <ClInclude Include="src\graphics\gl3v\renderuniform.h" />
+    <ClInclude Include="src\graphics\gl3v\renderuniformentry.h" />
+    <ClInclude Include="src\graphics\gl3v\renderuniformvector.h" />
+    <ClInclude Include="src\graphics\gl3v\stringidmap.h" />
+    <ClInclude Include="src\graphics\glcore.h" />
+    <ClInclude Include="src\graphics\glutil.h" />
+    <ClInclude Include="src\graphics\graphics.h" />
+    <ClInclude Include="src\graphics\graphicsstate.h" />
+    <ClInclude Include="src\graphics\graphics_camera.h" />
+    <ClInclude Include="src\graphics\graphics_config.h" />
+    <ClInclude Include="src\graphics\graphics_config_condition.h" />
+    <ClInclude Include="src\graphics\graphics_gl2.h" />
+    <ClInclude Include="src\graphics\graphics_gl3v.h" />
+    <ClInclude Include="src\graphics\mesh_gen.h" />
+    <ClInclude Include="src\graphics\model.h" />
+    <ClInclude Include="src\graphics\model_joe03.h" />
+    <ClInclude Include="src\graphics\model_obj.h" />
+    <ClInclude Include="src\graphics\png.h" />
+    <ClInclude Include="src\graphics\rendermodelext_drawable.h" />
+    <ClInclude Include="src\graphics\render_input.h" />
+    <ClInclude Include="src\graphics\render_input_postprocess.h" />
+    <ClInclude Include="src\graphics\render_input_scene.h" />
+    <ClInclude Include="src\graphics\render_output.h" />
+    <ClInclude Include="src\graphics\scenenode.h" />
+    <ClInclude Include="src\graphics\shader.h" />
+    <ClInclude Include="src\graphics\sky.h" />
+    <ClInclude Include="src\graphics\texture.h" />
+    <ClInclude Include="src\graphics\textureinfo.h" />
+    <ClInclude Include="src\graphics\texture_interface.h" />
+    <ClInclude Include="src\graphics\uniforms.h" />
+    <ClInclude Include="src\graphics\vertexarray.h" />
+    <ClInclude Include="src\graphics\vertexattrib.h" />
+    <ClInclude Include="src\graphics\vertexbuffer.h" />
+    <ClInclude Include="src\graphics\vertexformat.h" />
+    <ClInclude Include="src\gui\font.h" />
+    <ClInclude Include="src\gui\gui.h" />
+    <ClInclude Include="src\gui\guicontrol.h" />
+    <ClInclude Include="src\gui\guicontrollist.h" />
+    <ClInclude Include="src\gui\guiimage.h" />
+    <ClInclude Include="src\gui\guiimagelist.h" />
+    <ClInclude Include="src\gui\guilabel.h" />
+    <ClInclude Include="src\gui\guilabellist.h" />
+    <ClInclude Include="src\gui\guilanguage.h" />
+    <ClInclude Include="src\gui\guilinearslider.h" />
+    <ClInclude Include="src\gui\guilist.h" />
+    <ClInclude Include="src\gui\guioption.h" />
+    <ClInclude Include="src\gui\guipage.h" />
+    <ClInclude Include="src\gui\guiradialslider.h" />
+    <ClInclude Include="src\gui\guislider.h" />
+    <ClInclude Include="src\gui\guiwidget.h" />
+    <ClInclude Include="src\gui\guiwidgetlist.h" />
+    <ClInclude Include="src\gui\text_draw.h" />
+    <ClInclude Include="src\hsvtorgb.h" />
+    <ClInclude Include="src\http.h" />
+    <ClInclude Include="src\joepack.h" />
+    <ClInclude Include="src\joeserialize.h" />
+    <ClInclude Include="src\k1999.h" />
+    <ClInclude Include="src\keyed_container.h" />
+    <ClInclude Include="src\linearinterp.h" />
+    <ClInclude Include="src\loadcamera.h" />
+    <ClInclude Include="src\loadcollisionshape.h" />
+    <ClInclude Include="src\loaddrawable.h" />
+    <ClInclude Include="src\logging.h" />
+    <ClInclude Include="src\macros.h" />
+    <ClInclude Include="src\mathplane.h" />
+    <ClInclude Include="src\mathvector.h" />
+    <ClInclude Include="src\matrix3.h" />
+    <ClInclude Include="src\matrix4.h" />
+    <ClInclude Include="src\minmax.h" />
+    <ClInclude Include="src\numprocessors.h" />
+    <ClInclude Include="src\optional.h" />
+    <ClInclude Include="src\pairsort.h" />
+    <ClInclude Include="src\parallel_task.h" />
+    <ClInclude Include="src\particle.h" />
+    <ClInclude Include="src\pathmanager.h" />
+    <ClInclude Include="src\performance_testing.h" />
+    <ClInclude Include="src\physics\aerodevice.h" />
+    <ClInclude Include="src\physics\carbrake.h" />
+    <ClInclude Include="src\physics\carclutch.h" />
+    <ClInclude Include="src\physics\cardifferential.h" />
+    <ClInclude Include="src\physics\cardynamics.h" />
+    <ClInclude Include="src\physics\carengine.h" />
+    <ClInclude Include="src\physics\carfueltank.h" />
+    <ClInclude Include="src\physics\carinput.h" />
+    <ClInclude Include="src\physics\carsuspension.h" />
+    <ClInclude Include="src\physics\cartire.h" />
+    <ClInclude Include="src\physics\cartire1.h" />
+    <ClInclude Include="src\physics\cartire2.h" />
+    <ClInclude Include="src\physics\cartire3.h" />
+    <ClInclude Include="src\physics\cartirebase.h" />
+    <ClInclude Include="src\physics\cartransmission.h" />
+    <ClInclude Include="src\physics\carwheel.h" />
+    <ClInclude Include="src\physics\carwheelposition.h" />
+    <ClInclude Include="src\physics\collision_contact.h" />
+    <ClInclude Include="src\physics\driveline.h" />
+    <ClInclude Include="src\physics\driveshaft.h" />
+    <ClInclude Include="src\physics\dynamicsworld.h" />
+    <ClInclude Include="src\physics\fracturebody.h" />
+    <ClInclude Include="src\physics\motionstate.h" />
+    <ClInclude Include="src\physics\tracksurface.h" />
+    <ClInclude Include="src\physics\wheelconstraint.h" />
+    <ClInclude Include="src\quaternion.h" />
+    <ClInclude Include="src\quickmp.h" />
+    <ClInclude Include="src\quickprof.h" />
+    <ClInclude Include="src\radix.h" />
+    <ClInclude Include="src\random.h" />
+    <ClInclude Include="src\replay.h" />
+    <ClInclude Include="src\reseatable_reference.h" />
+    <ClInclude Include="src\roadpatch.h" />
+    <ClInclude Include="src\roadstrip.h" />
+    <ClInclude Include="src\settings.h" />
+    <ClInclude Include="src\signalprocessing.h" />
+    <ClInclude Include="src\signalslot.h" />
+    <ClInclude Include="src\skidmarks.h" />
+    <ClInclude Include="src\sound\sound.h" />
+    <ClInclude Include="src\sound\soundbuffer.h" />
+    <ClInclude Include="src\sound\soundfilter.h" />
+    <ClInclude Include="src\sound\soundinfo.h" />
+    <ClInclude Include="src\spline.h" />
+    <ClInclude Include="src\sprite2d.h" />
+    <ClInclude Include="src\suspensionbumpdetection.h" />
+    <ClInclude Include="src\svn_sourceforge.h" />
+    <ClInclude Include="src\timer.h" />
+    <ClInclude Include="src\tobullet.h" />
+    <ClInclude Include="src\toggle.h" />
+    <ClInclude Include="src\tokenize.h" />
+    <ClInclude Include="src\track.h" />
+    <ClInclude Include="src\trackloader.h" />
+    <ClInclude Include="src\trackmap.h" />
+    <ClInclude Include="src\transform.h" />
+    <ClInclude Include="src\tripplebuffer.h" />
+    <ClInclude Include="src\unittest.h" />
+    <ClInclude Include="src\updatemanager.h" />
+    <ClInclude Include="src\utils.h" />
+    <ClInclude Include="src\window.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
