@@ -7,12 +7,12 @@ My intention for this repository is to get a deeper understanding of game progra
 Used major libraries <br/>
 
 &emsp;https://github.com/OGRECave/ogre/releases/tag/v13.5.3<br/>
-&emsp;https://freeimage.sourceforge.io/download.html<br/>
+&emsp;FreeImage 3.18.0 https://freeimage.sourceforge.io/download.html<br/>
 &emsp;MyGui 3.4.0 http://mygui.info<br/>
 &emsp;https://github.com/bulletphysics/bullet3/releases/tag/3.25<br/>
 &emsp;SDL2 2.0.22 https://www.libsdl.org<br/>
 &emsp;https://github.com/assimp/assimp/releases/tag/v5.2.5<br/>
-&emsp;https://www.boost.org/users/history/version_1_81_0.html.5<br/>
+&emsp;https://www.boost.org/users/history/version_1_81_0.html<br/>
 
 **Installing Boost:** Out of the "VS Native Command Prompt"
 
