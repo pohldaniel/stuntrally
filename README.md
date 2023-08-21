@@ -10,7 +10,7 @@ Used major libraries <br/>
 &emsp;https://freeimage.sourceforge.io/download.html<br/>
 &emsp;MyGui 3.4.0 http://mygui.info<br/>
 &emsp;https://github.com/bulletphysics/bullet3/releases/tag/3.25<br/>
-&emsp;SDL2 2.0.22 https://www.libsdl.org/5<br/>
+&emsp;SDL2 2.0.22 https://www.libsdl.org<br/>
 &emsp;https://github.com/assimp/assimp/releases/tag/v5.2.5<br/>
 &emsp;https://www.boost.org/users/history/version_1_81_0.html.5<br/>
 
