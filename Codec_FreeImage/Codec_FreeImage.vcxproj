@@ -106,7 +106,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\libd\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>OgreMain.lib;libzlib.lib;libfreeimage.lib;OpenEXR.lib;libjpeg.lib;libopenjpeg.lib;libpng.lib;libtiff4.lib;librawlite.lib;libwebp.lib;libjxr.lib</AdditionalDependencies>
+      <AdditionalDependencies>OgreMain.lib;libzlib.lib;libfreeimage.lib;libopenexr.lib;libjpeg.lib;libopenjpeg.lib;libpng.lib;libtiff4.lib;librawlite.lib;libwebp.lib;libjxr.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -123,7 +123,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\libd\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>OgreMain.lib;libzlib.lib;libfreeimage.lib;OpenEXR.lib;libjpeg.lib;libopenjpeg.lib;libpng.lib;libtiff4.lib;librawlite.lib;libwebp.lib;libjxr.lib</AdditionalDependencies>
+      <AdditionalDependencies>OgreMain.lib;libzlib.lib;libfreeimage.lib;libopenexr.lib;libjpeg.lib;libopenjpeg.lib;libpng.lib;libtiff4.lib;librawlite.lib;libwebp.lib;libjxr.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -144,7 +144,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>OgreMain.lib;libzlib.lib;libfreeimage.lib;OpenEXR.lib;libjpeg.lib;libopenjpeg.lib;libpng.lib;libtiff4.lib;librawlite.lib;libwebp.lib;libjxr.lib</AdditionalDependencies>
+      <AdditionalDependencies>OgreMain.lib;libzlib.lib;libfreeimage.lib;libopenexr.lib;libjpeg.lib;libopenjpeg.lib;libpng.lib;libtiff4.lib;librawlite.lib;libwebp.lib;libjxr.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -165,7 +165,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>OgreMain.lib;libzlib.lib;libfreeimage.lib;OpenEXR.lib;libjpeg.lib;libopenjpeg.lib;libpng.lib;libtiff4.lib;librawlite.lib;libwebp.lib;libjxr.lib</AdditionalDependencies>
+      <AdditionalDependencies>OgreMain.lib;libzlib.lib;libfreeimage.lib;libopenexr.lib;libjpeg.lib;libopenjpeg.lib;libpng.lib;libtiff4.lib;librawlite.lib;libwebp.lib;libjxr.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

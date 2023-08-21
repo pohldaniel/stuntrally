@@ -218,6 +218,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;LIBRAW_NODLL;OPJ_STATIC;FREEIMAGE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>include;..\libopenexr;..\libopenexr\Imath;..\libopenexr\Iex;..\libopenexr\Half;..\libjxr;..\libjxr\jxrgluelib;..\libjxr\image\sys;..\libzlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
